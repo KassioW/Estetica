@@ -257,3 +257,28 @@ box-shadow: 30px 30px 10px #40387980;
   opacity: 1;
   text-align: center;
 }
+.v133_68 {
+  width: 90px;
+  height: 0px;
+  background: url("../images/v133_68.png");
+  opacity: 1;
+  position: absolute;
+  top: 93px;
+  left: 766px;
+  border: 2px solid rgba(0,0,0,1);
+}
+.face{
+  width: 160px;
+  height: 160px;
+  background: url("../images/v341_38.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 631px;
+  left: 777px;
+  overflow: hidden;
+  box-shadow: 10px 10px 10px #40387980;
+  border-radius: 100%;
+}
