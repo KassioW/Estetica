@@ -439,4 +439,42 @@
     left: 916px;
     border: 2px solid rgba(0,0,0,1);
   }
-  
+  .face {
+    width: 32px;
+    height: 32px;
+    background: url("../images/v351_38.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 25px;
+    left: 1378px;
+    overflow: hidden;
+  }
+  .insta {
+    width: 32px;
+    height: 32px;
+    background: url("../images/v351_42.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 25px;
+    left: 1260px;
+    overflow: hidden;
+  }
+  .zap {
+    width: 32px;
+    height: 32px;
+    background: url("../images/v351_43.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 25px;
+    left: 1320px;
+    overflow: hidden;
+  }

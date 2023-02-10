@@ -30,11 +30,11 @@ body {
 .v122_1704 {
   width: 100%;
   height: 145px;
-  background: rgba(214,173,96,0.6000000238418579);
+  background: rgba(214,173,96,1);
   opacity: 1;
   position: absolute;
-  top: 0px;
-  left: 2px;
+  top: 1px;
+  left: 0px;
 }
 .v122_1706 {
   width: 100%;
@@ -174,8 +174,8 @@ body {
   overflow: hidden;
 }
 .v340_60 {
-  position: absolute;
-left: 288px;
+position: absolute;
+left: 355px;
 top: 400px;
 width: 1300px;
 height: 467px;
@@ -216,10 +216,49 @@ box-shadow: 30px 30px 10px #40387980;
   opacity: 1;
   position: absolute;
   top: 631px;
-  left: 1000px;
+  left: 1250px;
   overflow: hidden;
   box-shadow: 10px 10px 10px #40387980;
   border-radius: 100%;
+}
+.face1 {
+  width: 32px;
+  height: 32px;
+  background: url("../images/v351_38.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 25px;
+  left: 1378px;
+  overflow: hidden;
+}
+.insta1 {
+  width: 32px;
+  height: 32px;
+  background: url("../images/v351_42.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 25px;
+  left: 1260px;
+  overflow: hidden;
+}
+.zap1 {
+  width: 32px;
+  height: 32px;
+  background: url("../images/v351_43.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 25px;
+  left: 1320px;
+  overflow: hidden;
 }
 .insta{
   width: 160px;
@@ -231,17 +270,34 @@ box-shadow: 30px 30px 10px #40387980;
   opacity: 1;
   position: absolute;
   top: 631px;
-  left: 777px;
+  left: 988px;
   overflow: hidden;
   box-shadow: 10px 10px 10px #40387980;
   border-radius: 100%;
 }
-.v340_105 {
+.face{
+  width: 160px;
+  height: 160px;
+  background: url("../images/v351_38.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
   position: absolute;
-  left: 10.21%;
-  right: 15.21%;
-  top: 33.6%;
-  bottom: 60.83%;  
+  top: 631px;
+  left: 700px;
+  overflow: hidden;
+  box-shadow: 10px 10px 10px #40387980;
+  border-radius: 100%;
+}
+
+.barra {
+  position: absolute;
+  height: 76px;
+  width: 860px;
+  left: 589px;
+  top: 459px;
+  border-radius: 24px;    
   background: #BB6BD9;
   border-radius: 24px;
 }
@@ -266,19 +322,4 @@ box-shadow: 30px 30px 10px #40387980;
   top: 93px;
   left: 766px;
   border: 2px solid rgba(0,0,0,1);
-}
-.face{
-  width: 160px;
-  height: 160px;
-  background: url("../images/v341_38.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 631px;
-  left: 777px;
-  overflow: hidden;
-  box-shadow: 10px 10px 10px #40387980;
-  border-radius: 100%;
 }

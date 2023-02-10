@@ -123,7 +123,7 @@ body {
   opacity: 1;
   text-align: center;
 }
-.v351_38 {
+.face {
   width: 32px;
   height: 32px;
   background: url("../images/v351_38.png");
@@ -136,7 +136,7 @@ body {
   left: 1378px;
   overflow: hidden;
 }
-.v351_42 {
+.insta {
   width: 32px;
   height: 32px;
   background: url("../images/v351_42.png");
@@ -149,7 +149,7 @@ body {
   left: 1260px;
   overflow: hidden;
 }
-.v351_43 {
+.zap {
   width: 32px;
   height: 32px;
   background: url("../images/v351_43.png");
@@ -226,7 +226,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v159_234 {
+.btnagendar {
   width: 207px;
   height: 45px;
   background: rgba(34,28,78,1);
@@ -241,19 +241,7 @@ body {
   border-bottom-right-radius: 24px;
   overflow: hidden;
 }
-.v159_235 {
-  width: 121px;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 834px;
-  left: 382px;
-  font-family: Poppins;
-  font-weight: Medium;
-  font-size: 15px;
-  opacity: 1;
-  text-align: center;
-}
-.v159_261 {
+.btnagendar1 {
   width: 207px;
   height: 45px;
   background: rgba(34,28,78,1);
@@ -268,7 +256,34 @@ body {
   border-bottom-right-radius: 24px;
   overflow: hidden;
 }
-.v159_262 {
+  .btnagendar2 {
+    width: 232px;
+    height: 44px;
+    background: rgba(187,107,217,1);
+    opacity: 1;
+    position: absolute;
+    top: 824px;
+    left: 908px;
+    border: 0px solid rgba(150,150,150,1);
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    overflow: hidden;
+  }
+  .btnagendar3 {
+    width: 121px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 834px;
+    left: 382px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 15px;
+    opacity: 1;
+    text-align: center;
+  }
+.btnagendar4 {
   width: 121px;
   color: rgba(255,255,255,1);
   position: absolute;
@@ -593,22 +608,8 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v159_230 {
-  width: 232px;
-  height: 44px;
-  background: rgba(187,107,217,1);
-  opacity: 1;
-  position: absolute;
-  top: 824px;
-  left: 908px;
-  border: 0px solid rgba(150,150,150,1);
-  border-top-left-radius: 24px;
-  border-top-right-radius: 24px;
-  border-bottom-left-radius: 24px;
-  border-bottom-right-radius: 24px;
-  overflow: hidden;
-}
-.v159_231 {
+
+.btnagendar5 {
   width: 121px;
   color: rgba(255,255,255,1);
   position: absolute;
