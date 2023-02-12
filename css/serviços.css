@@ -76,17 +76,14 @@
   }
 
   .v3_28 {
-    width: 100%;
+    width: 1100px;
     height: 162px;
     background: rgba(245,245,245,1);
     opacity: 1;
     position: absolute;
     top: 167px;
     left: 212px;
-    border-top-left-radius: 81px;
-    border-top-right-radius: 81px;
-    border-bottom-left-radius: 81px;
-    border-bottom-right-radius: 81px;
+border-radius: 100px;
     overflow: hidden;
   }
   .v4_7 {
@@ -148,17 +145,14 @@
     color: #fff;
   }
   .v3_20 {
-    width: 100%;
+    width: 1100px;
     height: 162px;
     background: rgba(245,245,245,1);
     opacity: 1;
     position: absolute;
     top: 186px;
     left: 188px;
-    border-top-left-radius: 81px;
-    border-top-right-radius: 81px;
-    border-bottom-left-radius: 81px;
-    border-bottom-right-radius: 81px;
+    border-radius: 100px;
     overflow: hidden;
   }
   .balao3 {
@@ -237,17 +231,14 @@
     cursor: pointer;
   }
   .v3_9 {
-    width: 100%;
+    width: 1100px;
     height: 162px;
     background: rgba(245,245,245,1);
     opacity: 1;
     position: absolute;
     top: 186px;
     left: 188px;
-    border-top-left-radius: 81px;
-    border-top-right-radius: 81px;
-    border-bottom-left-radius: 81px;
-    border-bottom-right-radius: 81px;
+    border-radius: 100px;
     overflow: hidden;
   }
   .balao1 {
@@ -397,7 +388,7 @@
     left: 1378px;
     overflow: hidden;
   }
-  .insta {
+  .zap {
     width: 32px;
     height: 32px;
     background: url("../images/v351_42.png");
@@ -410,7 +401,7 @@
     left: 1260px;
     overflow: hidden;
   }
-  .zap {
+  .insta {
     width: 32px;
     height: 32px;
     background: url("../images/v351_43.png");
