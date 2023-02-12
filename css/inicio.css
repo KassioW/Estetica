@@ -4,17 +4,19 @@
 body {
   font-size: 14px;
 }
-.v1_2 {
-  width: 100%;
-  height: 1075px;
+.inicio-tela-inicial {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1920px;
+  height: 1080px;
   background: rgba(255,255,255,0);
   opacity: 1;
   position: relative;
-  top: 0px;
-  left: 0px;
+  top: -15px;
+  left: -15px;
   overflow: hidden;
 }
-.v159_155 {
+.background-tela-inicial {
   width: 100%;
   height: 100%;
   background: url("../images/v159_155.png");
@@ -23,7 +25,6 @@ body {
   top: 5px;
   left: 0px;
 }
-
 .servicos {
   width: 100px;
   color: rgba(64,46,50,1);
@@ -35,8 +36,9 @@ body {
   font-size: 24px;
   opacity: 1;
   text-align: center;
+  cursor: pointer;
 }
-.v1_85 {
+.mulher-tela-inicial {
   width: 680px;
   height: 879px;
   background: url("../images/v1_85.png");
@@ -45,11 +47,11 @@ body {
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 196px;
+  top: 205px;
   left: 145px;
   overflow: hidden;
 }
-.v1_86 {
+.frase1-tela-inicial {
   width: 539px;
   height: 550px;
   background: url("../images/v1_86.png");
@@ -62,7 +64,7 @@ body {
   left: 736px;
   overflow: hidden;
 }
-.v1_73 {
+.primeira-frase1-tela-inicial {
   width: 525px;
   color: rgba(101,64,0,1);
   position: absolute;
@@ -74,7 +76,7 @@ body {
   opacity: 1;
   text-align: center;
 }
-.v1_74 {
+.segunda-frase1-tela-inicial {
   width: 536px;
   color: rgba(136,38,60,1);
   position: absolute;
@@ -86,7 +88,7 @@ body {
   opacity: 1;
   text-align: center;
 }
-.v1_126 {
+.frase2-tela-icial {
   width: 617px;
   height: 76px;
   background: url("../images/v1_126.png");
@@ -98,8 +100,9 @@ body {
   top: 840px;
   left: 699px;
   overflow: hidden;
+  cursor: pointer;
 }
-.v1_87 {
+.local-da-frase {
   width: 617px;
   height: 76px;
   background: rgba(189,125,125,1);
@@ -115,7 +118,7 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   overflow: hidden;
 }
-.v1_88 {
+.primeira-frase2 {
   width: 586px;
   color: rgba(101,64,0,1);
   position: absolute;
@@ -129,21 +132,34 @@ body {
   text-align: center;
 }
 
-.v1_5 {
+.logo1-tela-inicial {
   width: 418px;
   color: rgba(64,46,50,1);
   position: relative;
-  top: 35px;
-  left: 45px;
+  top: 22px;
+  left: 47px;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-family: Dancing Script;
   font-weight: Bold;
   font-size: 64px;
   opacity: 1;
   text-align: center;
+  cursor: pointer;
 }
-.name {
-  color: #fff;
+
+.logo2-tela-inicial {
+  width: 334px;
+  color: rgba(64,46,50,1);
+  position: absolute;
+  top: 92px;
+  left: 120px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Poppins;
+  font-weight: SemiBold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: justified;
+  cursor: pointer;
 }
 .face {
   width: 32px;
@@ -184,19 +200,6 @@ body {
   left: 1320px;
   overflow: hidden;
 }
-.v1_31 {
-  width: 334px;
-  color: rgba(64,46,50,1);
-  position: absolute;
-  top: 100px;
-  left: 100px;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  font-family: Poppins;
-  font-weight: SemiBold;
-  font-size: 20px;
-  opacity: 1;
-  text-align: justified;
-}
 .inicio {
   width: 63px;
   color: rgba(64,46,50,1);
@@ -208,6 +211,7 @@ body {
   font-size: 24px;
   opacity: 1;
   text-align: center;
+  cursor: pointer;
 }
 .precos{
   width: 81px;
@@ -220,6 +224,7 @@ body {
   font-size: 24px;
   opacity: 1;
   text-align: center;
+  cursor: pointer;
 }
 .agendar {
   width: 105px;
@@ -232,35 +237,10 @@ body {
   font-size: 24px;
   opacity: 1;
   text-align: center;
+  cursor: pointer;
 }
-.v133_53 {
-  width: 45px;
-  height: 45px;
-  background: rgba(0,0,0,1);
-  opacity: 1;
-  position: absolute;
-  top: 48px;
-  left: 1691px;
-}
-.v133_54 {
-  width: 45px;
-  height: 45px;
-  background: rgba(0,0,0,1);
-  opacity: 1;
-  position: absolute;
-  top: 48px;
-  left: 1769px;
-}
-.v133_55 {
-  width: 45px;
-  height: 45px;
-  background: rgba(0,0,0,1);
-  opacity: 1;
-  position: absolute;
-  top: 48px;
-  left: 1847px;
-}
-.v133_66 {
+
+.barra {
   width: 90px;
   height: 0px;
   background: url("../images/v133_66.png");
@@ -269,4 +249,5 @@ body {
   top: 89px;
   left: 597px;
   border: 2px solid rgba(0,0,0,1);
+  cursor: pointer;
 }

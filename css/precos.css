@@ -4,7 +4,7 @@
 body {
   font-size: 14px;
 }
-.v160_18 {
+.inicio-tela-preco {
   width: 100%;
   height: 1372px;
   background: url("../images/v160_18.png");
@@ -17,7 +17,7 @@ body {
   left: 0px;
   overflow: hidden;
 }
-.v159_173 {
+.background-tela-preco {
   width: 100%;
   height: 2000px;
   background: url("../images/v159_173.png");
@@ -30,7 +30,7 @@ body {
   left: 0px;
   overflow: hidden;
 }
-.v149_4625 {
+.background-logo-tela-preco {
   width: 100%;
   height: 145px;
   background: rgba(214,173,96,1);
@@ -50,8 +50,9 @@ body {
   font-size: 24px;
   opacity: 1;
   text-align: center;
+  cursor: pointer;
 }
-.v149_4628 {
+.logo1-tela-preco {
   width: 418px;
   color: rgba(64,46,50,1);
   position: absolute;
@@ -63,19 +64,21 @@ body {
   font-size: 64px;
   opacity: 1;
   text-align: center;
+  text-decoration: none;
 }
-.v149_4629 {
+.logo2-tela-preco {
   width: 334px;
   color: rgba(64,46,50,1);
   position: absolute;
   top: 92px;
-  left: 81px;
+  left: 120px;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-family: Poppins;
   font-weight: SemiBold;
   font-size: 20px;
   opacity: 1;
   text-align: justified;
+  text-decoration: none;
 }
 .inicio {
   width: 63px;
@@ -88,6 +91,7 @@ body {
   font-size: 24px;
   opacity: 1;
   text-align: center;
+  cursor: pointer;
 }
 .precos {
   width: 81px;
@@ -100,8 +104,9 @@ body {
   font-size: 24px;
   opacity: 1;
   text-align: center;
+  cursor: pointer;
 }
-.v154_4675 {
+.barra {
   width: 90px;
   height: 0px;
   background: url("../images/v154_4675.png");
@@ -110,6 +115,7 @@ body {
   top: 89px;
   left: 691px;
   border: 2px solid rgba(0,0,0,1);
+  cursor: pointer;
 }
 .agendar {
   width: 105px;
@@ -122,6 +128,7 @@ body {
   font-size: 24px;
   opacity: 1;
   text-align: center;
+  cursor: pointer;
 }
 .face {
   width: 32px;
@@ -162,7 +169,7 @@ body {
   left: 1320px;
   overflow: hidden;
 }
-.v154_4676 {
+.figura-tela-preco {
   width: 392px;
   height: 581px;
   background: url("../images/v154_4676.png");
@@ -175,7 +182,7 @@ body {
   left: 0px;
   overflow: hidden;
 }
-.v159_189 {
+.tabela-precos {
   width: 937px;
   height: 467px;
   background: rgba(242,230,232,1);
@@ -190,7 +197,7 @@ body {
   border-bottom-right-radius: 26px;
   overflow: hidden;
 }
-.v160_62 {
+.tabela2-microblanding {
   width: 165px;
   color: rgba(131,128,153,1);
   position: absolute;
@@ -202,7 +209,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v160_63 {
+.tabela2-microagulhamento {
   width: 165px;
   color: rgba(131,128,153,1);
   position: absolute;
@@ -214,7 +221,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v160_70 {
+.tabela2-pele-de-vidro {
   width: 165px;
   color: rgba(131,128,153,1);
   position: absolute;
@@ -226,7 +233,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.btnagendar {
+.tabela1-agendar-agora {
   width: 207px;
   height: 45px;
   background: rgba(34,28,78,1);
@@ -241,7 +248,7 @@ body {
   border-bottom-right-radius: 24px;
   overflow: hidden;
 }
-.btnagendar1 {
+.tabela2-agendar-agora {
   width: 207px;
   height: 45px;
   background: rgba(34,28,78,1);
@@ -256,34 +263,34 @@ body {
   border-bottom-right-radius: 24px;
   overflow: hidden;
 }
-  .btnagendar2 {
-    width: 232px;
-    height: 44px;
-    background: rgba(187,107,217,1);
-    opacity: 1;
-    position: absolute;
-    top: 824px;
-    left: 908px;
-    border: 0px solid rgba(150,150,150,1);
-    border-top-left-radius: 24px;
-    border-top-right-radius: 24px;
-    border-bottom-left-radius: 24px;
-    border-bottom-right-radius: 24px;
-    overflow: hidden;
-  }
-  .btnagendar3 {
-    width: 121px;
-    color: rgba(255,255,255,1);
-    position: absolute;
-    top: 834px;
-    left: 382px;
-    font-family: Poppins;
-    font-weight: Medium;
-    font-size: 15px;
-    opacity: 1;
-    text-align: center;
-  }
-.btnagendar4 {
+.tabela3-agendar-agora {
+  width: 232px;
+  height: 44px;
+  background: rgba(187,107,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 824px;
+  left: 908px;
+  border: 0px solid rgba(150,150,150,1);
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+  overflow: hidden;
+}
+.tabela1-nome-agendar-agora {
+  width: 121px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 834px;
+  left: 382px;
+  font-family: Poppins;
+  font-weight: Medium;
+  font-size: 15px;
+  opacity: 1;
+  text-align: center;
+}
+.tabela2-nome-agendar-agora {
   width: 121px;
   color: rgba(255,255,255,1);
   position: absolute;
@@ -295,7 +302,7 @@ body {
   opacity: 1;
   text-align: center;
 }
-.v159_265 {
+.tabela2-valor {
   width: 159px;
   color: rgba(34,28,78,1);
   position: absolute;
@@ -307,7 +314,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v159_266 {
+.tabela2-frase-direita-valor {
   width: 158px;
   color: rgba(131,128,153,1);
   position: absolute;
@@ -319,7 +326,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v351_52 {
+.tabela2-sinal3 {
   width: 20px;
   height: 20px;
   background: url("../images/v351_52.png");
@@ -332,7 +339,7 @@ body {
   left: 605px;
   overflow: hidden;
 }
-.v159_238 {
+.tabela1-valor {
   width: 107px;
   color: rgba(34,28,78,1);
   position: absolute;
@@ -344,7 +351,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v159_239 {
+.tabela1-frase-direita-valor {
   width: 103px;
   color: rgba(131,128,153,1);
   position: absolute;
@@ -356,7 +363,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v159_269 {
+.tabela2-frase1 {
   width: 272px;
   color: rgba(131,128,153,1);
   position: absolute;
@@ -368,7 +375,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v159_268 {
+.tabela2-frase2 {
   width: 242px;
   color: rgba(34,28,78,1);
   position: absolute;
@@ -380,7 +387,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v160_25 {
+.tabela1-frase1 {
   width: 211px;
   color: rgba(34,28,78,1);
   position: absolute;
@@ -392,7 +399,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v160_26 {
+.tabela1-frase2 {
   width: 175px;
   color: rgba(131,128,153,1);
   position: absolute;
@@ -404,7 +411,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v160_37 {
+.tabela1-pele-de-vidro {
   width: 165px;
   color: rgba(131,128,153,1);
   position: absolute;
@@ -416,7 +423,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v160_38 {
+.tabela1-microblanding {
   width: 165px;
   color: rgba(131,128,153,1);
   position: absolute;
@@ -428,7 +435,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v160_39 {
+.tabela1-microagulhamento {
   width: 165px;
   color: rgba(131,128,153,1);
   position: absolute;
@@ -440,7 +447,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v351_49 {
+.tabela1-sinal3 {
   width: 20px;
   height: 20px;
   background: url("../images/v351_49.png");
@@ -453,7 +460,7 @@ body {
   left: 336px;
   overflow: hidden;
 }
-.v351_50 {
+.tabela1-sinal2 {
   width: 20px;
   height: 20px;
   background: url("../images/v351_50.png");
@@ -466,7 +473,7 @@ body {
   left: 336px;
   overflow: hidden;
 }
-.v351_53 {
+.tabela2-sinal2 {
   width: 20px;
   height: 20px;
   background: url("../images/v351_53.png");
@@ -479,7 +486,7 @@ body {
   left: 605px;
   overflow: hidden;
 }
-.v351_54 {
+.tabela2-sinal1 {
   width: 20px;
   height: 20px;
   background: url("../images/v351_54.png");
@@ -492,7 +499,7 @@ body {
   left: 605px;
   overflow: hidden;
 }
-.v351_51 {
+.tabela1-sinal1 {
   width: 20px;
   height: 20px;
   background: url("../images/v351_51.png");
@@ -505,19 +512,7 @@ body {
   left: 336px;
   overflow: hidden;
 }
-.v160_46 {
-  width: 165px;
-  color: rgba(131,128,153,1);
-  position: absolute;
-  top: 758px;
-  left: 359px;
-  font-family: Poppins;
-  font-weight: Medium;
-  font-size: 15px;
-  opacity: 1;
-  text-align: left;
-}
-.v351_69 {
+.tabela3 {
   width: 304px;
   height: 562px;
   background: rgba(214,173,96,1);
@@ -533,7 +528,7 @@ body {
   box-shadow: 0px 42px 34px rgba(0.32156863808631897, 0.26274511218070984, 0.7607843279838562, 0.30000001192092896);
   overflow: hidden;
 }
-.v159_193 {
+.tabela3-mais-popular {
   width: 121px;
   height: 27px;
   background: rgba(63,56,121,1);
@@ -548,7 +543,7 @@ body {
   border-bottom-right-radius: 13px;
   overflow: hidden;
 }
-.v159_194 {
+.tabela3-mais-popular-frase {
   width: 78px;
   color: rgba(187,107,217,1);
   position: absolute;
@@ -560,7 +555,7 @@ body {
   opacity: 1;
   text-align: center;
 }
-.v159_198 {
+.tabela3-valor {
   width: 129px;
   color: rgba(255,255,255,1);
   position: absolute;
@@ -572,7 +567,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v159_199 {
+.tabela3-frase-direita-valor {
   width: 155px;
   color: rgba(255,255,255,1);
   position: absolute;
@@ -584,7 +579,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v159_201 {
+.tabela3-frase1 {
   width: 244px;
   color: rgba(255,255,255,1);
   position: absolute;
@@ -596,7 +591,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v159_202 {
+.tabela3-frase2 {
   width: 232px;
   color: rgba(132,129,153,1);
   position: absolute;
@@ -609,7 +604,7 @@ body {
   text-align: left;
 }
 
-.btnagendar5 {
+.tabela3-nome-agendar-agora {
   width: 121px;
   color: rgba(255,255,255,1);
   position: absolute;
@@ -620,8 +615,9 @@ body {
   font-size: 15px;
   opacity: 1;
   text-align: center;
+  cursor: pointer;
 }
-.v351_70 {
+.tabela3-microblanding {
   width: 165px;
   color: rgba(131,128,153,1);
   position: absolute;
@@ -633,7 +629,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v351_71 {
+.tabela3-microagulhamento {
   width: 165px;
   color: rgba(131,128,153,1);
   position: absolute;
@@ -645,7 +641,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v351_72 {
+.tabela3-pele-de-vidro {
   width: 165px;
   color: rgba(131,128,153,1);
   position: absolute;
@@ -657,7 +653,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v351_73 {
+.tabela3-sinal3 {
   width: 20px;
   height: 20px;
   background: url("../images/v351_73.png");
@@ -670,7 +666,7 @@ body {
   left: 908px;
   overflow: hidden;
 }
-.v351_74 {
+.tabela3-sinal2 {
   width: 20px;
   height: 20px;
   background: url("../images/v351_74.png");
@@ -683,7 +679,7 @@ body {
   left: 908px;
   overflow: hidden;
 }
-.v351_75 {
+.tabela3-sinal1 {
   width: 20px;
   height: 20px;
   background: url("../images/v351_75.png");

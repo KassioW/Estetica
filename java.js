@@ -8,6 +8,8 @@ document.querySelector(".btnagendar2").addEventListener("click", btnagendarFunct
 document.querySelector(".btnagendar3").addEventListener("click", btnagendarFunction);
 document.querySelector(".btnagendar4").addEventListener("click", btnagendarFunction);
 document.querySelector(".btnagendar5").addEventListener("click", btnagendarFunction);
+document.querySelector(".btnconsulta").addEventListener("click", btnagendarFunction);
+document.querySelector(".btnconsulta1").addEventListener("click", btnagendarFunction);
 
 
 function inicioFunction(){
