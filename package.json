@@ -1,0 +1,19 @@
+{
+  "name": "estetica",
+  "version": "1.0.0",
+  "description": "Um site voltado para uma clínica estética",
+  "main": "java.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KassioW/Estetica.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KassioW/Estetica/issues"
+  },
+  "homepage": "https://github.com/KassioW/Estetica#readme"
+}
