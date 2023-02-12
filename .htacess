@@ -1,2 +1,6 @@
-RewriteEngine on
-RewriteRule ^/$ /inicio.html [L]
+RewriteEngine On
+RewriteBase /
+RewriteRule ^inicio.html$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /inicio.html [L]
