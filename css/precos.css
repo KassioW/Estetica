@@ -11,6 +11,7 @@
   top: 0px;
   left: 0px;
   overflow: hidden;
+  overflow-x: scroll; 
 }
 .background-tela-preco {
   width: 100%;

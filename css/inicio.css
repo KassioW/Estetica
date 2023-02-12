@@ -1,65 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
 .inicio-tela-inicial {
-  width: 100%;
-  height: 1080px;
   position: relative;
-  overflow: hidden;
+  height: 100vh;
 }
+
 .background-tela-inicial {
+  position: absolute;
   width: 100%;
   height: 100%;
-  background: url("../images/v159_155.png");
-  position: absolute;
-  top: 5px;
-}
-.servicos {
-  width: 100px;
-  color: rgba(64,46,50,1);
-  position: absolute;
-  top: 53px;
-  left: 911px;
-  font-family: Poppins;
-  font-weight: Italic;
-  font-size: 24px;
-  text-align: center;
-  cursor: pointer;
-}
-.mulher-tela-inicial {
-  width: 680px;
-  height: 879px;
-  background: url("../images/v1_85.png");
-  background-repeat: no-repeat;
-  background-position: center center;
+  background-image: url('../images/v159_155.png');
   background-size: cover;
-  position: absolute;
-  top: 205px;
-  left: 145px;
+  background-position: center;
 }
-.frase1-tela-inicial {
-  width: 539px;
+
+.mulher-tela-inicial {
+  position: absolute;
+  left: 5%;
+  width: 19%;
   height: 100%;
-  background: url("../images/v1_86.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;  position: absolute;
-  top: 355px;
-  left: 736px;
-  overflow: hidden;
+  background: url("../images/v1_85.png");
+  background-size: cover;
+  background-position: center;
 }
-.primeira-frase1-tela-inicial {
-  width: 525px;
-  color: rgba(101,64,0,1);
+
+.frase1-tela-inicial {
   position: absolute;
-  top: 58px;
-  left: 0px;
+  top: 50%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 2rem;
+  color: white;
+}
+
+.primeira-frase1-tela-inicial {
+  display: block;
+  margin-bottom: 1rem;
+  color: rgba(101,64,0,1);
   font-family: Dancing Script;
   font-weight: Bold;
-  font-size: 90px;  text-align: center;
+  font-size: 50px;
 }
 .segunda-frase1-tela-inicial {
-  width: 536px;
   color: rgba(136,38,60,1);
   position: absolute;
-  left: 3px;
+  top: 40%;
+  left: 38%;
   font-family: Poppins;
   font-weight: Italic;
   font-size: 48px;
@@ -67,158 +59,123 @@
   text-align: center;
 }
 .frase2-tela-icial {
-  width: 617px;
-  height: 76px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
   position: absolute;
-  top: 840px;
-  left: 699px;
-  cursor: pointer;
-}
-.local-da-frase {
-  width: 617px;
-  height: 76px;
+  bottom: 40%;
+  left: 48%;
+  transform: translate(-50%, 0);
+  text-align: center;
+  width: 30rem;
+  height: 3rem;
   background: rgba(189,125,125,1);
-  position: relative;
-  top: 0px;
-  left: 0px;
-  border: 1px solid rgba(0,0,0,1);
-  border-radius: 100px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  overflow: hidden;
+  border-radius: 10rem;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+  border: 2px solid rgba(101,64,0,1);
+
 }
 .primeira-frase2 {
-  width: 586px;
+  display: inline-block;
+  font-size: 1.5rem;
   color: rgba(101,64,0,1);
-  position: absolute;
-  top: 12px;
-  left: 15px;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-family: Poppins;
+  font-size: 30px;
   font-weight: Italic;
-  font-size: 40px;
-  opacity: 1;
-  text-align: center;
+  text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
 }
 
-.logo1-tela-inicial {
-  width: 418px;
-  color: rgba(64,46,50,1);
-  position: relative;
-  top: 22px;
-  left: 47px;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+.logo1-tela-inicial{
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, 0);
   font-family: Dancing Script;
   font-weight: Bold;
-  font-size: 64px;
-  opacity: 1;
+  font-size: 3rem;
+  color: rgba(64,46,50,1);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   text-align: center;
   cursor: pointer;
 }
-
 .logo2-tela-inicial {
-  width: 334px;
-  color: rgba(64,46,50,1);
   position: absolute;
-  top: 92px;
-  left: 120px;
+  bottom: 6%;
+  left: 50%;
+  transform: translate(-50%, 0);
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-family: Poppins;
   font-weight: SemiBold;
-  font-size: 20px;
-  opacity: 1;
+  font-size: 1.5rem;
+  color: rgba(64,46,50,1);
   text-align: justified;
   cursor: pointer;
 }
-.face {
-  width: 32px;
-  height: 32px;
-  background: url("../images/v351_38.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 25px;
-  left: 1378px;
-  overflow: hidden;
-}
-.insta {
-  width: 32px;
-  height: 32px;
-  background: url("../images/v351_42.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 25px;
-  left: 1260px;
-  overflow: hidden;
-}
-.zap {
-  width: 32px;
-  height: 32px;
-  background: url("../images/v351_43.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 25px;
-  left: 1320px;
-  overflow: hidden;
-}
-.inicio {
-  width: 63px;
+
+.inicio,
+.precos,
+.agendar,
+.servicos {
+  display: inline;
+  position: relative;
+  top: 4%;
+  left: 35%;
+  font-size: 1.5rem;
   color: rgba(64,46,50,1);
-  position: absolute;
-  top: 53px;
-  left: 615px;
   font-family: Poppins;
-  font-weight: Italic;
-  font-size: 24px;
-  opacity: 1;
+  font-weight: bold;
   text-align: center;
-  cursor: pointer;
-}
-.precos{
-  width: 81px;
-  color: rgba(64,46,50,1);
-  position: absolute;
-  top: 53px;
-  left: 699px;
-  font-family: Poppins;
-  font-weight: Italic;
-  font-size: 24px;
-  opacity: 1;
-  text-align: center;
-  cursor: pointer;
-}
-.agendar {
-  width: 105px;
-  color: rgba(64,46,50,1);
-  position: absolute;
-  top: 53px;
-  left: 793px;
-  font-family: Poppins;
-  font-weight: Italic;
-  font-size: 24px;
-  opacity: 1;
-  text-align: center;
+  margin-right: 2rem;
   cursor: pointer;
 }
 
+  .face {
+    width: 2%;
+    height: 4.1%;
+    background: url("../images/v351_38.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 4%;
+    right: 20%;
+    overflow: hidden;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 100%;
+  }
+  .insta {
+    width: 2%;
+    height: 4.1%;
+    background: url("../images/v351_42.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 4%;
+    right: 23%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 100%;
+  }
+  .zap {
+    width: 2%;
+    height: 4.1%;
+    background: url("../images/v351_43.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 4%;
+    right: 26%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 100%;
+  }
 .barra {
-  width: 90px;
-  height: 0px;
+  width: 3%;
   background: url("../images/v133_66.png");
   opacity: 1;
   position: absolute;
-  top: 89px;
-  left: 597px;
+  top: 7.5%;
+  left: 34.5%;
   border: 2px solid rgba(0,0,0,1);
   cursor: pointer;
 }

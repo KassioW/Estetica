@@ -1,0 +1,253 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-size: 14px;
+  }
+  .inicio-tela-inicial {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1920px;
+    height: 1080px;
+    background: rgba(255,255,255,0);
+    opacity: 1;
+    position: relative;
+    top: -15px;
+    left: -15px;
+    overflow: hidden;
+  }
+  .background-tela-inicial {
+    width: 100%;
+    height: 100%;
+    background: url("../images/v159_155.png");
+    opacity: 1;
+    position: absolute;
+    top: 5px;
+    left: 0px;
+  }
+  .servicos {
+    width: 100px;
+    color: rgba(64,46,50,1);
+    position: absolute;
+    top: 53px;
+    left: 911px;
+    font-family: Poppins;
+    font-weight: Italic;
+    font-size: 24px;
+    opacity: 1;
+    text-align: center;
+    cursor: pointer;
+  }
+  .mulher-tela-inicial {
+    width: 680px;
+    height: 879px;
+    background: url("../images/v1_85.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 205px;
+    left: 145px;
+    overflow: hidden;
+  }
+  .frase1-tela-inicial {
+    width: 539px;
+    height: 550px;
+    background: url("../images/v1_86.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 355px;
+    left: 736px;
+    overflow: hidden;
+  }
+  .primeira-frase1-tela-inicial {
+    width: 525px;
+    color: rgba(101,64,0,1);
+    position: absolute;
+    top: 58px;
+    left: 0px;
+    font-family: Dancing Script;
+    font-weight: Bold;
+    font-size: 90px;
+    opacity: 1;
+    text-align: center;
+  }
+  .segunda-frase1-tela-inicial {
+    width: 536px;
+    color: rgba(136,38,60,1);
+    position: absolute;
+    top: 0px;
+    left: 3px;
+    font-family: Poppins;
+    font-weight: Italic;
+    font-size: 48px;
+    opacity: 1;
+    text-align: center;
+  }
+  .frase2-tela-icial {
+    width: 617px;
+    height: 76px;
+    background: url("../images/v1_126.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 840px;
+    left: 699px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .local-da-frase {
+    width: 617px;
+    height: 76px;
+    background: rgba(189,125,125,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border: 1px solid rgba(0,0,0,1);
+    border-top-left-radius: 43px;
+    border-top-right-radius: 43px;
+    border-bottom-left-radius: 43px;
+    border-bottom-right-radius: 43px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+  }
+  .primeira-frase2 {
+    width: 586px;
+    color: rgba(101,64,0,1);
+    position: absolute;
+    top: 12px;
+    left: 15px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Poppins;
+    font-weight: Italic;
+    font-size: 40px;
+    opacity: 1;
+    text-align: center;
+  }
+  
+  .logo1-tela-inicial {
+    width: 418px;
+    color: rgba(64,46,50,1);
+    position: relative;
+    top: 22px;
+    left: 47px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Dancing Script;
+    font-weight: Bold;
+    font-size: 64px;
+    opacity: 1;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .logo2-tela-inicial {
+    width: 334px;
+    color: rgba(64,46,50,1);
+    position: absolute;
+    top: 92px;
+    left: 120px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Poppins;
+    font-weight: SemiBold;
+    font-size: 20px;
+    opacity: 1;
+    text-align: justified;
+    cursor: pointer;
+  }
+  .face {
+    width: 32px;
+    height: 32px;
+    background: url("../images/v351_38.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 25px;
+    left: 1378px;
+    overflow: hidden;
+  }
+  .insta {
+    width: 32px;
+    height: 32px;
+    background: url("../images/v351_42.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 25px;
+    left: 1260px;
+    overflow: hidden;
+  }
+  .zap {
+    width: 32px;
+    height: 32px;
+    background: url("../images/v351_43.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 25px;
+    left: 1320px;
+    overflow: hidden;
+  }
+  .inicio {
+    width: 63px;
+    color: rgba(64,46,50,1);
+    position: absolute;
+    top: 53px;
+    left: 615px;
+    font-family: Poppins;
+    font-weight: Italic;
+    font-size: 24px;
+    opacity: 1;
+    text-align: center;
+    cursor: pointer;
+  }
+  .precos{
+    width: 81px;
+    color: rgba(64,46,50,1);
+    position: absolute;
+    top: 53px;
+    left: 699px;
+    font-family: Poppins;
+    font-weight: Italic;
+    font-size: 24px;
+    opacity: 1;
+    text-align: center;
+    cursor: pointer;
+  }
+  .agendar {
+    width: 105px;
+    color: rgba(64,46,50,1);
+    position: absolute;
+    top: 53px;
+    left: 793px;
+    font-family: Poppins;
+    font-weight: Italic;
+    font-size: 24px;
+    opacity: 1;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .barra {
+    width: 90px;
+    height: 0px;
+    background: url("../images/v133_66.png");
+    opacity: 1;
+    position: absolute;
+    top: 89px;
+    left: 597px;
+    border: 2px solid rgba(0,0,0,1);
+    cursor: pointer;
+  }
