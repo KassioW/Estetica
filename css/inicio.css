@@ -114,28 +114,20 @@ body {
   cursor: pointer;
 }
 
- 
+.selecionado {
+  font-weight: bold;
+  border-bottom: 3px solid #F8A1D1;
+}
 .barra {
-  width: 7vh;
-  background: url("../images/v133_66.png");
-  opacity: 1;
-  position: absolute;
-  top: 7.5vh;
-  left: 104.5vh;
-  border: 2px solid rgba(0,0,0,1);
-  cursor: pointer;
+  height: 3px;
+  background-color: blue;
+  margin-top: -3px;
 }
 
-.animacao {
-  animation-name: exemplo;
-  animation-duration: 1s;
-  }
-  
-  @keyframes exemplo {
-  0% { transform: scale(1); }
-  50% { transform: scale(1.1); }
-  100% { transform: scale(1); }
-  }
+.active {
+  border-bottom: 2px solid black;
+  /* ou outra cor/estilo de sua escolha */
+}
   
   @media screen and (max-width: 100vh) {
 
@@ -155,8 +147,8 @@ body {
       position: absolute;
       left: 0%;
       bottom: 0%;
-      width: 50%;
-      height: 65%;
+      width: 40%;
+      height: 50%;
     }
     
     .primeira-frase1-tela-inicial {
@@ -166,23 +158,23 @@ body {
       font-weight: Bold;
       font-size: 200%;
       position: absolute;
-      top: 45%;
-      left: 46%;
+      top: 35%;
+      left: 25%;
     }
     .segunda-frase1-tela-inicial {
       color: rgba(136,38,60,1);
       position: absolute;
-      top: 41%;
-      left: 48%;
+      top: 31%;
+      left: 39%;
       font-family: Poppins;
       font-weight: Italic;
-      font-size: 130%;
+      font-size: 140%;
       text-align: center;
     }
     .frase2-tela-icial {
       position: absolute;
-      bottom: 42%;
-      left: 70%;
+      bottom: 56%;
+      left: 53%;
       text-align: center;
       width: 50%;
       height: 3.5%;
@@ -196,7 +188,7 @@ body {
       display: inline-block;
       color: rgba(101,64,0,1);
       font-family: Poppins;
-      font-size: 140%;
+      font-size: 200%;
       font-weight: Italic;
       text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
     }
@@ -204,7 +196,7 @@ body {
     .logo1-tela-inicial{
       position: absolute;
       bottom: 10%;
-      left: 56%;
+      left: 46%;
       font-family: Dancing Script;
       font-weight: Bold;
       font-size: 200%;
@@ -215,8 +207,8 @@ body {
     }
     .logo2-tela-inicial {
       position: absolute;
-      bottom: 7%;
-      left: 60%;
+      bottom: 8%;
+      left: 49%;
       text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
       font-family: Poppins;
       font-weight: SemiBold;
@@ -234,7 +226,7 @@ body {
       position: relative;
       top: 4%;
       left: 25%;
-      font-size: 100%;
+      font-size: 200%;
       color: rgba(64,46,50,1);
       font-family: Poppins;
       font-weight: bold;
@@ -242,15 +234,6 @@ body {
       margin-right: 2rem;
       cursor: pointer;
     }
-    
-     
-    .barra {
-      width: 9%;
-      opacity: 1;
-      position: absolute;
-      top: 7.1%;
-      left: 23.5%;
-      border: 2px solid rgba(0,0,0,1);
-      cursor: pointer;
-    }
+      
+
   }
