@@ -116,19 +116,19 @@ body {
 
 .selecionado {
   font-weight: bold;
-  border-bottom: 3px solid #F8A1D1;
-}
-.barra {
-  height: 3px;
-  background-color: blue;
-  margin-top: -3px;
+  border-bottom: 3px solid rgba(189,125,125,1);
 }
 
-.active {
-  border-bottom: 2px solid black;
-  /* ou outra cor/estilo de sua escolha */
+.barra {
+  width: 4%;
+  position: fixed;
+  top: 7.5%;
+  left: 55%;
+  border: 2px solid rgba(64,46,50,1);
+  cursor: pointer;
 }
-  
+
+
   @media screen and (max-width: 100vh) {
 
 
@@ -235,5 +235,12 @@ body {
       cursor: pointer;
     }
       
-
+    .barra {
+      width: 9%;
+      position: fixed;
+      top: 7.5%;
+      left: 24.5%;
+      border: 2px solid rgba(64,46,50,1);
+      cursor: pointer;
+    }
   }
