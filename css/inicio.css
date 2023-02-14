@@ -137,3 +137,34 @@ body {
   100% { transform: scale(1); }
   }
   
+@media screen and (max-width: 768px) {
+  .mulher-tela-inicial {
+    width: 50vh;
+    left: 25vh;
+  }
+  .frase1-tela-inicial {
+    font-size: 1.5rem;
+  }
+  .segunda-frase1-tela-inicial {
+    font-size: 1.2rem;
+  }
+  .frase2-tela-inicial {
+    width: 60vh;
+    height: 2rem;
+  }
+  .primeira-frase2 {
+    font-size: 1rem;
+  }
+  .logo1-tela-inicial {
+    font-size: 2rem;
+  }
+  .logo2-tela-inicial {
+    font-size: 1rem;
+  }
+  .face, .insta, .zap {
+    width: 5vh;
+    height: 10vh;
+    top: 2vh;
+    right: 2vh;
+  }
+}
