@@ -137,34 +137,120 @@ body {
   100% { transform: scale(1); }
   }
   
-@media screen and (max-width: 768px) {
-  .mulher-tela-inicial {
-    width: 50vh;
-    left: 25vh;
+  @media screen and (max-width: 768px) {
+
+
+    .inicio-tela-inicial {
+      position: relative;
+      height: 100vh;
+    }
+    
+    .background-tela-inicial {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }
+    
+    .mulher-tela-inicial {
+      position: absolute;
+      left: 0%;
+      bottom: 0%;
+      width: 50%;
+      height: 65%;
+    }
+    
+    .primeira-frase1-tela-inicial {
+      margin-bottom: 1%;
+      color: rgba(101,64,0,1);
+      font-family: Dancing Script;
+      font-weight: Bold;
+      font-size: 200%;
+      position: absolute;
+      top: 45%;
+      left: 46%;
+    }
+    .segunda-frase1-tela-inicial {
+      color: rgba(136,38,60,1);
+      position: absolute;
+      top: 41%;
+      left: 48%;
+      font-family: Poppins;
+      font-weight: Italic;
+      font-size: 130%;
+      text-align: center;
+    }
+    .frase2-tela-icial {
+      position: absolute;
+      bottom: 42%;
+      left: 70%;
+      text-align: center;
+      width: 50%;
+      height: 3.5%;
+      background: rgba(189,125,125,1);
+      border-radius: 100px;
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+      border: 2px solid rgba(101,64,0,1);
+    
+    }
+    .primeira-frase2 {
+      display: inline-block;
+      color: rgba(101,64,0,1);
+      font-family: Poppins;
+      font-size: 140%;
+      font-weight: Italic;
+      text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+    }
+    
+    .logo1-tela-inicial{
+      position: absolute;
+      bottom: 10%;
+      left: 56%;
+      font-family: Dancing Script;
+      font-weight: Bold;
+      font-size: 200%;
+      color: rgba(64,46,50,1);
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      text-align: center;
+      cursor: pointer;
+    }
+    .logo2-tela-inicial {
+      position: absolute;
+      bottom: 7%;
+      left: 60%;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      font-family: Poppins;
+      font-weight: SemiBold;
+      font-size: 100%;
+      color: rgba(64,46,50,1);
+      text-align: justified;
+      cursor: pointer;
+    }
+    
+    .inicio,
+    .precos,
+    .agendar,
+    .servicos {
+      display: inline;
+      position: relative;
+      top: 4%;
+      left: 25%;
+      font-size: 100%;
+      color: rgba(64,46,50,1);
+      font-family: Poppins;
+      font-weight: bold;
+      text-align: center;
+      margin-right: 2rem;
+      cursor: pointer;
+    }
+    
+     
+    .barra {
+      width: 9%;
+      opacity: 1;
+      position: absolute;
+      top: 7.1%;
+      left: 23.5%;
+      border: 2px solid rgba(0,0,0,1);
+      cursor: pointer;
+    }
   }
-  .frase1-tela-inicial {
-    font-size: 1.5rem;
-  }
-  .segunda-frase1-tela-inicial {
-    font-size: 1.2rem;
-  }
-  .frase2-tela-inicial {
-    width: 60vh;
-    height: 2rem;
-  }
-  .primeira-frase2 {
-    font-size: 1rem;
-  }
-  .logo1-tela-inicial {
-    font-size: 2rem;
-  }
-  .logo2-tela-inicial {
-    font-size: 1rem;
-  }
-  .face, .insta, .zap {
-    width: 5vh;
-    height: 10vh;
-    top: 2vh;
-    right: 2vh;
-  }
-}

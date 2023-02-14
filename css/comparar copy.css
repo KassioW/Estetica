@@ -20,9 +20,9 @@ body {
 
 .mulher-tela-inicial {
   position: absolute;
-  left: 15vh;
-  width: 50vh;
-  height: 100vh;
+  left: 150px;
+  width: 500px;
+  height: 100%;
   background: url("../images/v1_85.png");
   background-size: cover;
   background-position: center;
@@ -33,52 +33,51 @@ body {
   color: rgba(101,64,0,1);
   font-family: Dancing Script;
   font-weight: Bold;
-  font-size: 5vh;
+  font-size: 50px;
   position: absolute;
-  top: 47vh;
-  left: 88vh;
+  top: 440px;
+  left: 830px;
 }
 .segunda-frase1-tela-inicial {
   color: rgba(136,38,60,1);
   position: absolute;
-  top: 40vh;
-  left: 102vh;
+  top: 380px;
+  left: 980px;
   font-family: Poppins;
   font-weight: Italic;
-  font-size: 5vh;
+  font-size: 46px;
   text-align: center;
 }
 .frase2-tela-icial {
   position: absolute;
-  bottom: 40vh;
-  left: 130vh;
-  transform: translate(-50%, 0);
+  bottom: 380px;
+  left: 980px;
   text-align: center;
-  width: 30rem;
-  height: 3rem;
+  width: 490px;
+  height: 48px;
   background: rgba(189,125,125,1);
-  border-radius: 10rem;
+  border-radius: 100px;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
   border: 2px solid rgba(101,64,0,1);
 
 }
 .primeira-frase2 {
   display: inline-block;
-  font-size: 1.5rem;
+  font-size: 15px;
   color: rgba(101,64,0,1);
   font-family: Poppins;
-  font-size: 3vh;
+  font-size: 30px;
   font-weight: Italic;
   text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
 }
 
 .logo1-tela-inicial{
   position: absolute;
-  bottom: 10vh;
-  left: 115vh;
+  bottom: 100px;
+  left: 1100px;
   font-family: Dancing Script;
   font-weight: Bold;
-  font-size: 3rem;
+  font-size: 50px;
   color: rgba(64,46,50,1);
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   text-align: center;
@@ -86,12 +85,12 @@ body {
 }
 .logo2-tela-inicial {
   position: absolute;
-  bottom: 6vh;
-  left: 120vh;
+  bottom: 60px;
+  left: 1140px;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-family: Poppins;
   font-weight: SemiBold;
-  font-size: 1.5rem;
+  font-size: 25px;
   color: rgba(64,46,50,1);
   text-align: justified;
   cursor: pointer;
@@ -103,9 +102,9 @@ body {
 .servicos {
   display: inline;
   position: relative;
-  top: 4vh;
-  left: 105vh;
-  font-size: 1.5rem;
+  top: 40px;
+  left: 1000px;
+  font-size: 25px;
   color: rgba(64,46,50,1);
   font-family: Poppins;
   font-weight: bold;
@@ -116,12 +115,11 @@ body {
 
  
 .barra {
-  width: 7vh;
-  background: url("../images/v133_66.png");
+  width: 70px;
   opacity: 1;
   position: absolute;
-  top: 7.5vh;
-  left: 104.5vh;
+  top: 75px;
+  left: 995px;
   border: 2px solid rgba(0,0,0,1);
   cursor: pointer;
 }
