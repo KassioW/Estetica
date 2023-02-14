@@ -1,4 +1,4 @@
-.v122_1703 {
+.background-logo-tela-servicos {
   width: 100%;
   height: 150px;
   background: rgba(214,173,96,1);
@@ -7,7 +7,7 @@
   top: 0px;
   left: 0px;
   }
-  .v115_5 {
+  .tela-servicos {
     width: 100%;
     height: 1773px;
     opacity: 1;
@@ -17,7 +17,7 @@
     overflow: hidden;
     overflow-x: scroll; 
   }
-  .v3_2 {
+  .tela-servicos-imagem {
     width: 100%;
     height: 100%;
     background: url("../images/v3_2.png");
@@ -30,7 +30,7 @@
     left: 0px;
     overflow: hidden;
   }
-  .v3_15 {
+  .tela-servicos-mensagem2 {
     width: 100%;
     height: 1024px;
     background: url("../images/v3_15.png");
@@ -43,7 +43,7 @@
     left: 0px;
     overflow: hidden;
   }
-  .v3_22 {
+  .tela-servicos-mensagem2-microblanding   {
     width: 971px;
     height: 426px;
     background: rgba(214,173,96,1);
@@ -57,7 +57,7 @@
     border-bottom-right-radius: 213px;
     overflow: hidden;
   }
-  .micro {
+  .tela-servicos-mensagem2-microblanding-palavra {
     width: 693px;
     color: rgba(101,64,0,1);
     position: absolute;
@@ -70,7 +70,7 @@
     text-align: left;
   }
 
-  .v3_28 {
+  .tela-servicos-mensagem2-microblanding-frase {
     width: 1100px;
     height: 162px;
     background: rgba(245,245,245,1);
@@ -81,7 +81,7 @@
 border-radius: 100px;
     overflow: hidden;
   }
-  .v4_7 {
+  .tela-servicos-mensagem2-microagulhamento {
     width: 100%;
     height: 426px;
     background: url("../images/v4_7.png");
@@ -93,21 +93,8 @@ border-radius: 100px;
     top: 598px;
     left: 2px;
     overflow: hidden;
-  }
-  .v4_6 {
-    width: 100%;
-    height: 426px;
-    background: url("../images/v4_6.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    opacity: 1;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    overflow: hidden;
-  }
-  .v3_16 {
+  } 
+  .tela-servicos-mensagem2-microagulhamento-balao {
     width: 971px;
     height: 426px;
     background: rgba(214,173,96,1);
@@ -121,7 +108,7 @@ border-radius: 100px;
     border-bottom-right-radius: 213px;
     overflow: hidden;
   }
-  .v3_17 {
+  .tela-servicos-mensagem2-microagulhamento-palavra {
     width: 443px;
     color: rgba(101,64,0,1);
     position: absolute;
@@ -139,7 +126,7 @@ border-radius: 100px;
   .name {
     color: #fff;
   }
-  .v3_20 {
+  .tela-servicos-mensagem2-microagulhamento-frase {
     width: 1100px;
     height: 162px;
     background: rgba(245,245,245,1);
@@ -174,7 +161,7 @@ border-radius: 100px;
     opacity: 1;
     text-align: center;
   }
-  .v3_14 {
+  .tela-servicos-mensagem-pele-de-vidro {
     width: 100%;
     height: 426px;
     background: url("../images/v3_14.png");
@@ -187,7 +174,7 @@ border-radius: 100px;
     left: 2px;
     overflow: hidden;
   }
-  .v3_6 {
+  .tela-servicos-mensagem-pele-de-vidro-balao {
     width: 893px;
     height: 426px;
     background: rgba(214,173,96,1);
@@ -201,7 +188,7 @@ border-radius: 100px;
     border-bottom-right-radius: 213px;
     overflow: hidden;
   }
-  .v3_4 {
+  .tela-servicos-mensagem-pele-de-vidro-balao-palavra {
     width: 695px;
     color: rgba(101,64,0,1);
     position: absolute;
@@ -225,7 +212,7 @@ border-radius: 100px;
     border: 2px solid rgba(0,0,0,1);
     cursor: pointer;
   }
-  .v3_9 {
+  .tela-servicos-mensagem-pele-de-vidro-frase {
     width: 1100px;
     height: 162px;
     background: rgba(245,245,245,1);
@@ -248,34 +235,6 @@ border-radius: 100px;
     opacity: 1;
     text-align: center;
   }
-  .v122_1666 {
-    width: 100%;
-    height: 145px;
-    background: rgba(214,173,96,0.6000000238418579);
-    opacity: 1;
-    position: relative;
-    top: 0px;
-    left: 0px;
-  }
-  .v122_1667 {
-    width: 100%;
-    height: 145px;
-    background: rgba(214,173,96,1);
-    opacity: 1;
-    position: relative;
-    top: 0px;
-    left: 0px;
-  }
-  .v122_1678 {
-    width: 100%;
-    height: 145px;
-    background: rgba(214,173,96,1);
-    opacity: 1;
-    position: relative;
-    top: 0px;
-    left: 0px;
-  }
-
   .servicos {
     width: 100px;
     color: rgba(64,46,50,1);
@@ -289,7 +248,7 @@ border-radius: 100px;
     text-align: center;
     cursor: pointer
   }
-  .v122_1669 {
+  .logo-tela-servicos {
     width: 418px;
     height: 105px;
     background: url("../images/v122_1669.png");

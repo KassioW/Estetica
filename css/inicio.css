@@ -20,48 +20,38 @@ body {
 
 .mulher-tela-inicial {
   position: absolute;
-  left: 5%;
-  width: 19%;
-  height: 100%;
+  left: 15vh;
+  width: 50vh;
+  height: 100vh;
   background: url("../images/v1_85.png");
   background-size: cover;
   background-position: center;
 }
 
-.frase1-tela-inicial {
-  position: absolute;
-  top: 50%;
-  left: 48%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  font-family: 'Dancing Script', cursive;
-  font-size: 2rem;
-  color: white;
-}
-
 .primeira-frase1-tela-inicial {
-  display: block;
   margin-bottom: 1rem;
   color: rgba(101,64,0,1);
   font-family: Dancing Script;
   font-weight: Bold;
-  font-size: 50px;
+  font-size: 5vh;
+  position: absolute;
+  top: 47vh;
+  left: 88vh;
 }
 .segunda-frase1-tela-inicial {
   color: rgba(136,38,60,1);
   position: absolute;
-  top: 40%;
-  left: 38%;
+  top: 40vh;
+  left: 102vh;
   font-family: Poppins;
   font-weight: Italic;
-  font-size: 48px;
-  opacity: 1;
+  font-size: 5vh;
   text-align: center;
 }
 .frase2-tela-icial {
   position: absolute;
-  bottom: 40%;
-  left: 48%;
+  bottom: 40vh;
+  left: 130vh;
   transform: translate(-50%, 0);
   text-align: center;
   width: 30rem;
@@ -77,16 +67,15 @@ body {
   font-size: 1.5rem;
   color: rgba(101,64,0,1);
   font-family: Poppins;
-  font-size: 30px;
+  font-size: 3vh;
   font-weight: Italic;
   text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
 }
 
 .logo1-tela-inicial{
   position: absolute;
-  bottom: 10%;
-  left: 50%;
-  transform: translate(-50%, 0);
+  bottom: 10vh;
+  left: 115vh;
   font-family: Dancing Script;
   font-weight: Bold;
   font-size: 3rem;
@@ -97,9 +86,8 @@ body {
 }
 .logo2-tela-inicial {
   position: absolute;
-  bottom: 6%;
-  left: 50%;
-  transform: translate(-50%, 0);
+  bottom: 6vh;
+  left: 120vh;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-family: Poppins;
   font-weight: SemiBold;
@@ -115,8 +103,8 @@ body {
 .servicos {
   display: inline;
   position: relative;
-  top: 4%;
-  left: 35%;
+  top: 4vh;
+  left: 105vh;
   font-size: 1.5rem;
   color: rgba(64,46,50,1);
   font-family: Poppins;
@@ -126,56 +114,26 @@ body {
   cursor: pointer;
 }
 
-  .face {
-    width: 2%;
-    height: 4.1%;
-    background: url("../images/v351_38.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    opacity: 1;
-    position: absolute;
-    top: 4%;
-    right: 20%;
-    overflow: hidden;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
-    border-radius: 100%;
-  }
-  .insta {
-    width: 2%;
-    height: 4.1%;
-    background: url("../images/v351_42.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    opacity: 1;
-    position: absolute;
-    top: 4%;
-    right: 23%;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
-    border-radius: 100%;
-  }
-  .zap {
-    width: 2%;
-    height: 4.1%;
-    background: url("../images/v351_43.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    opacity: 1;
-    position: absolute;
-    top: 4%;
-    right: 26%;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
-    border-radius: 100%;
-  }
+ 
 .barra {
-  width: 3%;
+  width: 7vh;
   background: url("../images/v133_66.png");
   opacity: 1;
   position: absolute;
-  top: 7.5%;
-  left: 34.5%;
+  top: 7.5vh;
+  left: 104.5vh;
   border: 2px solid rgba(0,0,0,1);
   cursor: pointer;
 }
+
+.animacao {
+  animation-name: exemplo;
+  animation-duration: 1s;
+  }
+  
+  @keyframes exemplo {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+  }
+  

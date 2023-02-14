@@ -30,3 +30,22 @@ function btnagendarFunction(){
 function servicoFunction(){
   window.location.href = "serviços.html";
 }
+
+// seleciona todos os botões
+const botoes = document.querySelectorAll('span, a');
+
+// adiciona um event listener para cada botão
+botoes.forEach(botao => {
+botao.addEventListener('mouseover', () => {
+botao.style.backgroundColor = 'yellow';
+});
+botao.addEventListener('mouseout', () => {
+botao.style.backgroundColor = '';
+});
+botao.addEventListener('click', () => {
+botao.classList.add('animacao');
+setTimeout(() => {
+botao.classList.remove('animacao');
+}, 1000);
+});
+});
