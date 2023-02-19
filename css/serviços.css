@@ -201,17 +201,6 @@ border-radius: 100px;
     text-align: left;
   }
 
-  .barra {
-    width: 90px;
-    height: 0px;
-    background: url("../images/v154_4675.png");
-    opacity: 1;
-    position: absolute;
-    top: 89px;
-    left: 917px;
-    border: 2px solid rgba(0,0,0,1);
-    cursor: pointer;
-  }
   .tela-servicos-mensagem-pele-de-vidro-frase {
     width: 1100px;
     height: 162px;
@@ -235,19 +224,7 @@ border-radius: 100px;
     opacity: 1;
     text-align: center;
   }
-  .servicos {
-    width: 100px;
-    color: rgba(64,46,50,1);
-    position: absolute;
-    top: 53px;
-    left: 911px;
-    font-family: Poppins;
-    font-weight: Italic;
-    font-size: 24px;
-    opacity: 1;
-    text-align: center;
-    cursor: pointer
-  }
+
   .logo-tela-servicos {
     width: 418px;
     height: 105px;
@@ -290,44 +267,28 @@ border-radius: 100px;
     text-align: justified;
     text-decoration: none;
   }
-  .inicio {
-    width: 63px;
-    color: rgba(64,46,50,1);
-    position: absolute;
-    top: 53px;
-    left: 615px;
-    font-family: Poppins;
-    font-weight: Italic;
-    font-size: 24px;
-    opacity: 1;
-    text-align: center;
-    cursor: pointer
+  .inicio{
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-color: rgba(34,28,78,1);;
   }
-  .precos {
-    width: 81px;
+  
+  .inicio,
+  .precos,
+  .agendar,
+  .servicos {
+    display: inline;
+    position: relative;
+    top: 4vh;
+    left: 105vh;
+    font-size: 1.5rem;
     color: rgba(64,46,50,1);
-    position: absolute;
-    top: 53px;
-    left: 699px;
     font-family: Poppins;
-    font-weight: Italic;
-    font-size: 24px;
-    opacity: 1;
+    font-weight: bold;
     text-align: center;
-    cursor: pointer
-  }
-  .agendar {
-    width: 105px;
-    color: rgba(64,46,50,1);
-    position: absolute;
-    top: 53px;
-    left: 793px;
-    font-family: Poppins;
-    font-weight: Italic;
-    font-size: 24px;
-    opacity: 1;
-    text-align: center;
-    cursor: pointer
+    margin-right: 2rem;
+    cursor: pointer;
+   
   }
   .face {
     width: 32px;

@@ -2,6 +2,9 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
+  overflow-x: hidden; 
+  justify-content: center;
+  align-items: center;
 }
 
 .inicio-tela-preco {
@@ -13,20 +16,18 @@ body {
   width: 100%;
   height: 100%;
   background-image: url('../images/v159_155.png');
-  background-size: cover;
-  background-position: center;
 }
 
 .logo1-tela-preco {
   width: 40vh;
   color: rgba(64,46,50,1);
   position: absolute;
-  top: 22px;
-  left: 47px;
+  top: 1vh;
+  left: 6vh;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-family: Dancing Script;
   font-weight: Bold;
-  font-size: 64px;
+  font-size: 6vh;
   text-align: center;
   text-decoration: none;
 }
@@ -34,15 +35,20 @@ body {
   width: 334vh;
   color: rgba(64,46,50,1);
   position: absolute;
-  top: 10vh;
+  top: 8vh;
   left: 16vh;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-family: Poppins;
   font-weight: SemiBold;
-  font-size: 20px;
+  font-size: 2.5vh;
   opacity: 1;
-  text-align: justified;
   text-decoration: none;
+}
+
+.precos{
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-color: rgba(34,28,78,1);;
 }
 
 .inicio,
@@ -60,630 +66,720 @@ body {
   text-align: center;
   margin-right: 2rem;
   cursor: pointer;
+ 
 }
 
-.barra {
-  width: 90px;
-  height: 0px;
-  position: absolute;
-  top: 89px;
-  left: 691px;
-  border: 2px solid rgba(0,0,0,1);
-  cursor: pointer;
-}
 
-.face {
-  width: 32px;
-  height: 32px;
-  background: url("../images/v351_38.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 25px;
-  left: 1378px;
-  overflow: hidden;
-}
-.zap {
-  width: 32px;
-  height: 32px;
-  background: url("../images/v351_42.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 25px;
-  left: 1260px;
-  overflow: hidden;
-}
-.insta {
-  width: 32px;
-  height: 32px;
-  background: url("../images/v351_43.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 25px;
-  left: 1320px;
-  overflow: hidden;
-}
 .figura-tela-preco {
-  width: 392px;
-  height: 581px;
+  width: 32vh;
+  height: 56vh;
   background: url("../images/v154_4676.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 785px;
-  left: 0px;
-  overflow: hidden;
+  top: 42vh;
+  left: 1vh;
 }
 .tabela-precos {
-  width: 937px;
-  height: 467px;
+  width: 95vh;
+  height: 47vh;
   background: rgba(242,230,232,1);
-  opacity: 1;
   position: absolute;
-  top: 441px;
-  left: 271px;
+  top: 33vh;
+  left: 50vh;
   border: 0px solid rgba(150,150,150,1);
-  border-top-left-radius: 26px;
-  border-top-right-radius: 26px;
-  border-bottom-left-radius: 26px;
-  border-bottom-right-radius: 26px;
-  overflow: hidden;
+  border-radius: 9vh;
+  box-shadow: 30px 30px 10px #40387980;
+
 }
-.tabela2-microblanding {
-  width: 165px;
-  color: rgba(131,128,153,1);
-  position: absolute;
-  top: 704px;
-  left: 625px;
-  font-family: Poppins;
-  font-weight: Medium;
-  font-size: 15px;
-  opacity: 1;
-  text-align: left;
-}
-.tabela2-microagulhamento {
-  width: 165px;
-  color: rgba(131,128,153,1);
-  position: absolute;
-  top: 729px;
-  left: 628px;
-  font-family: Poppins;
-  font-weight: Medium;
-  font-size: 15px;
-  opacity: 1;
-  text-align: left;
-}
-.tabela2-pele-de-vidro {
-  width: 165px;
-  color: rgba(131,128,153,1);
-  position: absolute;
-  top: 754px;
-  left: 628px;
-  font-family: Poppins;
-  font-weight: Medium;
-  font-size: 15px;
-  opacity: 1;
-  text-align: left;
-}
+
 .tabela1-agendar-agora {
-  width: 207px;
-  height: 45px;
+  width: 21vh;
+  height: 5vh;
   background: rgba(34,28,78,1);
   opacity: 0.5;
   position: absolute;
-  top: 823px;
-  left: 339px;
+  top: 72vh;
+  left: 60vh;
   border: 0px solid rgba(150,150,150,1);
-  border-top-left-radius: 24px;
-  border-top-right-radius: 24px;
-  border-bottom-left-radius: 24px;
-  border-bottom-right-radius: 24px;
-  overflow: hidden;
-}
-.tabela2-agendar-agora {
-  width: 207px;
-  height: 45px;
-  background: rgba(34,28,78,1);
-  opacity: 0.5;
-  position: absolute;
-  top: 823px;
-  left: 605px;
-  border: 0px solid rgba(150,150,150,1);
-  border-top-left-radius: 24px;
-  border-top-right-radius: 24px;
-  border-bottom-left-radius: 24px;
-  border-bottom-right-radius: 24px;
-  overflow: hidden;
-}
-.tabela3-agendar-agora {
-  width: 232px;
-  height: 44px;
-  background: rgba(187,107,217,1);
-  opacity: 1;
-  position: absolute;
-  top: 824px;
-  left: 908px;
-  border: 0px solid rgba(150,150,150,1);
-  border-top-left-radius: 24px;
-  border-top-right-radius: 24px;
-  border-bottom-left-radius: 24px;
-  border-bottom-right-radius: 24px;
-  overflow: hidden;
+  border-radius: 20vh;
 }
 .tabela1-nome-agendar-agora {
-  width: 121px;
+  width: 15vh;
   color: rgba(255,255,255,1);
   position: absolute;
-  top: 834px;
-  left: 382px;
+  top: 73.5vh;
+  left: 62.5vh;
   font-family: Poppins;
   font-weight: Medium;
-  font-size: 15px;
-  opacity: 1;
+  font-size: 1.5vh;
   text-align: center;
 }
-.tabela2-nome-agendar-agora {
-  width: 121px;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 834px;
-  left: 648px;
-  font-family: Poppins;
-  font-weight: Medium;
-  font-size: 15px;
-  opacity: 1;
-  text-align: center;
-}
-.tabela2-valor {
-  width: 159px;
-  color: rgba(34,28,78,1);
-  position: absolute;
-  top: 481px;
-  left: 605px;
-  font-family: Poppins;
-  font-weight: Bold;
-  font-size: 36px;
-  opacity: 1;
-  text-align: left;
-}
-.tabela2-frase-direita-valor {
-  width: 158px;
-  color: rgba(131,128,153,1);
-  position: absolute;
-  top: 481px;
-  left: 702px;
-  font-family: Poppins;
-  font-weight: Medium;
-  font-size: 17px;
-  opacity: 1;
-  text-align: left;
-}
-.tabela2-sinal3 {
-  width: 20px;
-  height: 20px;
-  background: url("../images/v351_52.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 758px;
-  left: 605px;
-  overflow: hidden;
-}
+
 .tabela1-valor {
-  width: 107px;
+  width: 10vh;
   color: rgba(34,28,78,1);
   position: absolute;
-  top: 481px;
-  left: 317px;
+  top: 38vh;
+  left: 58vh;
   font-family: Poppins;
   font-weight: Bold;
-  font-size: 36px;
+  font-size: 5vh;
   opacity: 1;
   text-align: left;
 }
 .tabela1-frase-direita-valor {
-  width: 103px;
+  width: 16vh;
   color: rgba(131,128,153,1);
   position: absolute;
-  top: 491px;
-  left: 409px;
+  top: 40vh;
+  left: 71vh;
   font-family: Poppins;
-  font-weight: Medium;
-  font-size: 17px;
+  font-size: 1.7vh;
   opacity: 1;
   text-align: left;
 }
-.tabela2-frase1 {
-  width: 272px;
-  color: rgba(131,128,153,1);
-  position: absolute;
-  top: 616px;
-  left: 605px;
-  font-family: Poppins;
-  font-weight: Medium;
-  font-size: 15px;
-  opacity: 1;
-  text-align: left;
-}
-.tabela2-frase2 {
-  width: 242px;
-  color: rgba(34,28,78,1);
-  position: absolute;
-  top: 532px;
-  left: 605px;
-  font-family: Poppins;
-  font-weight: Medium;
-  font-size: 16px;
-  opacity: 1;
-  text-align: left;
-}
+
 .tabela1-frase1 {
-  width: 211px;
+  width: 24vh;
   color: rgba(34,28,78,1);
   position: absolute;
-  top: 528px;
-  left: 321px;
+  top: 44vh;
+  left: 60vh;
   font-family: Poppins;
   font-weight: Medium;
-  font-size: 20px;
+  font-size: 2vh;
   opacity: 1;
   text-align: left;
 }
 .tabela1-frase2 {
-  width: 175px;
-  color: rgba(131,128,153,1);
+  width: 20vh;
+  color: rgba(34,28,78,1);
   position: absolute;
-  top: 650px;
-  left: 321px;
+  top: 53.5vh;
+  left: 60vh;
   font-family: Poppins;
-  font-weight: Medium;
-  font-size: 15px;
+  font-size: 1.8vh;
   opacity: 1;
   text-align: left;
 }
-.tabela1-pele-de-vidro {
-  width: 165px;
-  color: rgba(131,128,153,1);
-  position: absolute;
-  top: 758px;
-  left: 359px;
-  font-family: Poppins;
-  font-weight: Medium;
-  font-size: 15px;
-  opacity: 1;
-  text-align: left;
-}
+
+.tabela1-microagulhamento,
+.tabela1-pele-de-vidro,
 .tabela1-microblanding {
-  width: 165px;
+  width: 16vh;
   color: rgba(131,128,153,1);
-  position: absolute;
-  top: 708px;
-  left: 356px;
+  top: 17.6vh;
+  left: 63vh;
   font-family: Poppins;
-  font-weight: Medium;
-  font-size: 15px;
-  opacity: 1;
+  font-size: 2vh;
+  display: grid;
   text-align: left;
+  position: relative;
+  margin-bottom: 1vh;
 }
-.tabela1-microagulhamento {
-  width: 165px;
-  color: rgba(131,128,153,1);
-  position: absolute;
-  top: 733px;
-  left: 357px;
-  font-family: Poppins;
-  font-weight: Medium;
-  font-size: 15px;
-  opacity: 1;
-  text-align: left;
-}
+
+.tabela1-sinal1,
+.tabela1-sinal2,
 .tabela1-sinal3 {
-  width: 20px;
-  height: 20px;
-  background: url("../images/v351_49.png");
-  background-repeat: no-repeat;
-  background-position: center center;
+  width: 2vh;
+  height: 2vh;
+  display: grid;
+  margin-bottom: 2vh;
+  position: relative;
+  background: url("../images/v351_52.png");
   background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 758px;
-  left: 336px;
-  overflow: hidden;
+  top: 30vh;
+  left: 60vh;
 }
-.tabela1-sinal2 {
-  width: 20px;
-  height: 20px;
-  background: url("../images/v351_50.png");
-  background-repeat: no-repeat;
-  background-position: center center;
+.tabela2-microagulhamento,
+.tabela2-pele-de-vidro,
+.tabela2-microblanding {
+  width: 16vh;
+  color: rgba(131,128,153,1);
+  top: 42vh;
+  left: 93vh;
+  font-family: Poppins;
+  font-size: 2vh;
+  display: grid;
+  text-align: left;
+  position: relative;
+  padding: 0.5vh;
+}
+.tabela2-nome-agendar-agora {
+  width: 15vh;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 73.5vh;
+  left: 92.5vh;
+  font-family: Poppins;
+  font-weight: Medium;
+  font-size: 1.5vh;
+  text-align: center;
+}
+.tabela2-valor {
+  color: rgba(34,28,78,1);
+  position: absolute;
+  top: 38vh;
+  left: 86vh;
+  font-family: Poppins;
+  font-weight: Bold;
+  font-size: 5vh;
+  text-align: left;
+}
+.tabela2-frase-direita-valor {
+  width: 16vh;
+  color: rgba(131,128,153,1);
+  position: absolute;
+  top: 39vh;
+  left: 99vh;
+  font-family: Poppins;
+  font-weight: Medium;
+  font-size: 1.7vh;
+  text-align: left;
+}
+.tabela2-sinal1,
+.tabela2-sinal2,
+.tabela2-sinal3 {
+  width: 2vh;
+  height: 2vh;
+  display: grid;
+  margin-bottom: 2vh;
+  position: relative;
+  background: url("../images/v351_52.png");
   background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 736px;
-  left: 336px;
-  overflow: hidden;
+  top: 55vh;
+  left: 90vh;
 }
-.tabela2-sinal2 {
-  width: 20px;
-  height: 20px;
-  background: url("../images/v351_53.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
+.tabela2-frase1 {
+  width: 25vh;
+  color: rgba(34,28,78,1);
   position: absolute;
-  top: 732px;
-  left: 605px;
-  overflow: hidden;
+  top: 53vh;
+  left: 90vh;
+  font-family: Poppins;
+  font-weight: Medium;
+  font-size: 2vh;
+  text-align: left;
 }
-.tabela2-sinal1 {
-  width: 20px;
-  height: 20px;
-  background: url("../images/v351_54.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
+.tabela2-frase2 {
+  width: 25vh;
+  color: rgba(34,28,78,1);
   position: absolute;
-  top: 705px;
-  left: 605px;
-  overflow: hidden;
+  top: 45vh;
+  left: 90vh;
+  font-family: Poppins;
+  font-weight: Medium;
+  font-size: 1.8vh;
+  text-align: left;
 }
-.tabela1-sinal1 {
-  width: 20px;
-  height: 20px;
-  background: url("../images/v351_51.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
+.tabela2-agendar-agora {
+  width: 21vh;
+  height: 5vh;
+  background: rgba(34,28,78,1);
+  opacity: 0.5;
   position: absolute;
-  top: 712px;
-  left: 336px;
-  overflow: hidden;
+  top: 72vh;
+  left: 90vh;
+  border: 0px solid rgba(150,150,150,1);
+  border-radius: 20vh;
 }
+
 .tabela3 {
-  width: 304px;
-  height: 562px;
+  width: 30vh;
+  height: 60vh;
   background: rgba(214,173,96,1);
-  opacity: 1;
   position: absolute;
-  top: 409px;
-  left: 871px;
+  top: 29vh;
+  left: 117vh;
   border: 1px solid rgba(151,151,151,1);
-  border-top-left-radius: 26px;
-  border-top-right-radius: 26px;
-  border-bottom-left-radius: 26px;
-  border-bottom-right-radius: 26px;
+  border-radius:2.6vh;
   box-shadow: 0px 42px 34px rgba(0.32156863808631897, 0.26274511218070984, 0.7607843279838562, 0.30000001192092896);
-  overflow: hidden;
 }
 .tabela3-mais-popular {
-  width: 121px;
-  height: 27px;
+  width: 12vh;
+  height: 2.7vh;
   background: rgba(63,56,121,1);
+  position: absolute;
+  top: 33vh;
+  left: 130vh;
+  border: 0px solid rgba(150,150,150,1);
+  border-radius: 1.3vh;
+}
+.tabela3-agendar-agora {
+  width: 21vh;
+  height: 5vh;
+  background: rgba(187,107,217,1);
   opacity: 1;
   position: absolute;
-  top: 435px;
-  left: 1024px;
-  border: 0px solid rgba(150,150,150,1);
-  border-top-left-radius: 13px;
-  border-top-right-radius: 13px;
-  border-bottom-left-radius: 13px;
-  border-bottom-right-radius: 13px;
-  overflow: hidden;
+  top: 72vh;
+  left: 122vh;
+  border-radius: 20vh;
 }
+
 .tabela3-mais-popular-frase {
-  width: 78px;
+  width: 25vh;
   color: rgba(187,107,217,1);
   position: absolute;
-  top: 441px;
-  left: 1046px;
+  top: 33.5vh;
+  left: 124vh;
   font-family: Poppins;
   font-weight: ExtraBold;
-  font-size: 10px;
-  opacity: 1;
+  font-size: 1.3vh;
   text-align: center;
 }
 .tabela3-valor {
-  width: 129px;
   color: rgba(255,255,255,1);
   position: absolute;
-  top: 477px;
-  left: 912px;
+  top: 36vh;
+  left: 120vh;
   font-family: Poppins;
   font-weight: Bold;
-  font-size: 36px;
-  opacity: 1;
+  font-size: 5vh;
   text-align: left;
 }
 .tabela3-frase-direita-valor {
-  width: 155px;
+  width: 10vh;
   color: rgba(255,255,255,1);
   position: absolute;
-  top: 486px;
-  left: 1020px;
+  top: 37.5vh;
+  left: 134vh;
   font-family: Poppins;
-  font-weight: Medium;
-  font-size: 17px;
-  opacity: 1;
-  text-align: left;
+  font-size: 1.7vh;
+  text-align: center;
 }
 .tabela3-frase1 {
-  width: 244px;
+  width: 28vh;
   color: rgba(255,255,255,1);
   position: absolute;
-  top: 534px;
-  left: 908px;
+  top: 43vh;
+  left: 120vh;
   font-family: Poppins;
-  font-weight: Medium;
-  font-size: 20px;
-  opacity: 1;
+  font-size: 2vh;
   text-align: left;
 }
 .tabela3-frase2 {
-  width: 232px;
+  width: 32vh;
   color: rgba(132,129,153,1);
   position: absolute;
-  top: 657px;
-  left: 908px;
+  top: 52vh;
+  left: 120vh;
   font-family: Poppins;
-  font-weight: Medium;
-  font-size: 15px;
+  font-size: 2vh;
   opacity: 1;
   text-align: left;
 }
 
 .tabela3-nome-agendar-agora {
-  width: 121px;
+  width: 20vh;
   color: rgba(255,255,255,1);
   position: absolute;
-  top: 834px;
-  left: 969px;
+  top: 73vh;
+  left: 122.5vh;
   font-family: Poppins;
-  font-weight: Medium;
-  font-size: 15px;
-  opacity: 1;
+  font-size: 2vh;
   text-align: center;
   cursor: pointer;
 }
+.tabela3-microagulhamento,
+.tabela3-pele-de-vidro,
 .tabela3-microblanding {
-  width: 165px;
   color: rgba(131,128,153,1);
-  position: absolute;
-  top: 713px;
-  left: 928px;
+  top: 6vh;
+  left: 125vh;
   font-family: Poppins;
-  font-weight: Medium;
-  font-size: 15px;
-  opacity: 1;
+  font-size: 2vh;
+  display: grid;
   text-align: left;
+  position: relative;
+  padding: 0.5vh;
 }
-.tabela3-microagulhamento {
-  width: 165px;
-  color: rgba(131,128,153,1);
-  position: absolute;
-  top: 738px;
-  left: 931px;
-  font-family: Poppins;
-  font-weight: Medium;
-  font-size: 15px;
-  opacity: 1;
-  text-align: left;
-}
-.tabela3-pele-de-vidro {
-  width: 165px;
-  color: rgba(131,128,153,1);
-  position: absolute;
-  top: 763px;
-  left: 931px;
-  font-family: Poppins;
-  font-weight: Medium;
-  font-size: 15px;
-  opacity: 1;
-  text-align: left;
-}
+
+.tabela3-sinal1,
+.tabela3-sinal2,
 .tabela3-sinal3 {
-  width: 20px;
-  height: 20px;
-  background: url("../images/v351_73.png");
-  background-repeat: no-repeat;
-  background-position: center center;
+  width: 2vh;
+  height: 2vh;
+  display: grid;
+  margin-bottom: 2vh;
+  position: relative;
+  background: url("../images/v351_52.png");
   background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 767px;
-  left: 908px;
-  overflow: hidden;
+  top: -5vh;
+  left: 122vh;
 }
-.tabela3-sinal2 {
-  width: 20px;
-  height: 20px;
-  background: url("../images/v351_74.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 741px;
-  left: 908px;
-  overflow: hidden;
-}
-.tabela3-sinal1 {
-  width: 20px;
-  height: 20px;
-  background: url("../images/v351_75.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 714px;
-  left: 908px;
-  overflow: hidden;
-}
-@media (max-width: 768px) {
-  /* Ajuste de layout para telas menores */
-  .inicio-tela-preco {
-    padding: 20px;
+@media screen and (max-width: 100vh) {
+
+  .inicio-tela-inicial {
+    position: relative;
+    height: 100vh;
   }
-  .tabela-precos {
-    margin: 20px 0;
-  }
-  /* Alterações no tamanho de fonte para telas menores */
-  .servicos {
-    font-size: 24px;
-  }
+  
+  .background-tela-inicial {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  } 
+  
   .logo1-tela-preco {
-    font-size: 36px;
-  }
-  .logo2-tela-preco {
-    font-size: 24px;
-  }
-  .inicio,
-  .precos,
-  .agendar {
-    font-size: 18px;
-  }
-  .tabela1-valor,
-  .tabela2-valor,
-  .tabela3-valor {
-    font-size: 24px;
-  }
-  .tabela1-frase-direita-valor,
-  .tabela2-frase-direita-valor,
-  .tabela3-frase-direita-valor {
-    font-size: 16px;
-  }
-  .tabela1-frase1,
-  .tabela2-frase1,
-  .tabela3-frase1,
-  .tabela1-frase2,
-  .tabela2-frase2,
-  .tabela3-frase2 {
-    font-size: 14px;
-  }
-  .tabela1-pele-de-vidro,
-  .tabela1-microblanding,
-  .tabela1-microagulhamento,
-  .tabela2-microblanding,
-  .tabela2-microagulhamento,
-  .tabela2-pele-de-vidro,
-  .tabela3-microblanding,
-  .tabela3-microagulhamento,
-  .tabela3-pele-de-vidro {
-    font-size: 20px;
+      width: 255;
+      font-size: 100%;
+      left: 1vh;
+      
+    }
+    .logo2-tela-preco {
+      width: 120vh;
+      font-size: 2vh;
+      left: 3vh;
+      top: 6vh;
+    }
+    .inicio,
+    .precos,
+    .agendar,
+    .servicos {
+      font-size: 2vw;
+      left: auto;
+      margin-right: 1rem;
+      top: 3vh;
+    }
+    .figura-tela-preco {
+      width: 40vw;
+      height: 20vh;
+      top: 20vh;
+      left: 2vw;
+    }
+    .tabela-precos {
+      width: 90vw;
+      height: 35vh;
+      top: 50vh;
+      left: 5vw;
+    }
+    .tabela1-agendar-agora {
+      width: 21vh;
+      height: 5vh;
+      background: rgba(34,28,78,1);
+      opacity: 0.5;
+      position: absolute;
+      top: 72vh;
+      left: 60vh;
+      border: 0px solid rgba(150,150,150,1);
+      border-radius: 20vh;
+    }
+    .tabela1-nome-agendar-agora {
+      width: 15vh;
+      color: rgba(255,255,255,1);
+      position: absolute;
+      top: 73.5vh;
+      left: 62.5vh;
+      font-family: Poppins;
+      font-weight: Medium;
+      font-size: 1.5vh;
+      text-align: center;
+    }
+    
+    .tabela1-valor {
+      width: 10vh;
+      color: rgba(34,28,78,1);
+      position: absolute;
+      top: 38vh;
+      left: 58vh;
+      font-family: Poppins;
+      font-weight: Bold;
+      font-size: 5vh;
+      opacity: 1;
+      text-align: left;
+    }
+    .tabela1-frase-direita-valor {
+      width: 16vh;
+      color: rgba(131,128,153,1);
+      position: absolute;
+      top: 40vh;
+      left: 71vh;
+      font-family: Poppins;
+      font-size: 1.7vh;
+      opacity: 1;
+      text-align: left;
+    }
+    
+    .tabela1-frase1 {
+      width: 24vh;
+      color: rgba(34,28,78,1);
+      position: absolute;
+      top: 44vh;
+      left: 60vh;
+      font-family: Poppins;
+      font-weight: Medium;
+      font-size: 2vh;
+      opacity: 1;
+      text-align: left;
+    }
+    .tabela1-frase2 {
+      width: 20vh;
+      color: rgba(34,28,78,1);
+      position: absolute;
+      top: 53.5vh;
+      left: 60vh;
+      font-family: Poppins;
+      font-size: 1.8vh;
+      opacity: 1;
+      text-align: left;
+    }
+    
+    .tabela1-microagulhamento,
+    .tabela1-pele-de-vidro,
+    .tabela1-microblanding {
+      width: 16vh;
+      color: rgba(131,128,153,1);
+      top: 17.6vh;
+      left: 63vh;
+      font-family: Poppins;
+      font-size: 2vh;
+      display: grid;
+      text-align: left;
+      position: relative;
+      margin-bottom: 1vh;
+    }
+    
+    .tabela1-sinal1,
+    .tabela1-sinal2,
+    .tabela1-sinal3 {
+      width: 2vh;
+      height: 2vh;
+      display: grid;
+      margin-bottom: 2vh;
+      position: relative;
+      background: url("../images/v351_52.png");
+      background-size: cover;
+      top: 30vh;
+      left: 60vh;
+    }
+
+
+    .tabela2-agendar-agora {
+      width: 21vh;
+      height: 5vh;
+      background: rgba(34,28,78,1);
+      opacity: 0.5;
+      position: absolute;
+      top: 72vh;
+      left: 60vh;
+      border: 0px solid rgba(150,150,150,1);
+      border-radius: 20vh;
+    }
+    .tabela2-nome-agendar-agora {
+      width: 15vh;
+      color: rgba(255,255,255,1);
+      position: absolute;
+      top: 73.5vh;
+      left: 62.5vh;
+      font-family: Poppins;
+      font-weight: Medium;
+      font-size: 1.5vh;
+      text-align: center;
+    }
+    
+    .tabela2-valor {
+      width: 10vh;
+      color: rgba(34,28,78,1);
+      position: absolute;
+      top: 38vh;
+      left: 58vh;
+      font-family: Poppins;
+      font-weight: Bold;
+      font-size: 5vh;
+      opacity: 1;
+      text-align: left;
+    }
+    .tabela2-frase-direita-valor {
+      width: 16vh;
+      color: rgba(131,128,153,1);
+      position: absolute;
+      top: 40vh;
+      left: 71vh;
+      font-family: Poppins;
+      font-size: 1.7vh;
+      opacity: 1;
+      text-align: left;
+    }
+    
+    .tabela2-frase1 {
+      width: 24vh;
+      color: rgba(34,28,78,1);
+      position: absolute;
+      top: 44vh;
+      left: 60vh;
+      font-family: Poppins;
+      font-weight: Medium;
+      font-size: 2vh;
+      opacity: 1;
+      text-align: left;
+    }
+    .tabela2-frase2 {
+      width: 20vh;
+      color: rgba(34,28,78,1);
+      position: absolute;
+      top: 53.5vh;
+      left: 60vh;
+      font-family: Poppins;
+      font-size: 1.8vh;
+      opacity: 1;
+      text-align: left;
+    }
+    
+    .tabela2-microagulhamento,
+    .tabela2-pele-de-vidro,
+    .tabela2-microblanding {
+      width: 16vh;
+      color: rgba(131,128,153,1);
+      top: 17.6vh;
+      left: 63vh;
+      font-family: Poppins;
+      font-size: 2vh;
+      display: grid;
+      text-align: left;
+      position: relative;
+      margin-bottom: 1vh;
+    }
+    
+    .tabela2-sinal1,
+    .tabela2-sinal2,
+    .tabela2-sinal3 {
+      width: 2vh;
+      height: 2vh;
+      display: grid;
+      margin-bottom: 2vh;
+      position: relative;
+      background: url("../images/v351_52.png");
+      background-size: cover;
+      top: 30vh;
+      left: 60vh;
+    }
+
+
+
+    .tabela3 {
+      width: 30vh;
+      height: 60vh;
+      background: rgba(214,173,96,1);
+      position: absolute;
+      top: 29vh;
+      left: 117vh;
+      border: 1px solid rgba(151,151,151,1);
+      border-radius:2.6vh;
+      box-shadow: 0px 42px 34px rgba(0.32156863808631897, 0.26274511218070984, 0.7607843279838562, 0.30000001192092896);
+    }
+    .tabela3-mais-popular {
+      width: 12vh;
+      height: 2.7vh;
+      background: rgba(63,56,121,1);
+      position: absolute;
+      top: 33vh;
+      left: 130vh;
+      border: 0px solid rgba(150,150,150,1);
+      border-radius: 1.3vh;
+    }
+    .tabela3-agendar-agora {
+      width: 21vh;
+      height: 5vh;
+      background: rgba(187,107,217,1);
+      opacity: 1;
+      position: absolute;
+      top: 72vh;
+      left: 122vh;
+      border-radius: 20vh;
+    }
+    
+    .tabela3-mais-popular-frase {
+      width: 25vh;
+      color: rgba(187,107,217,1);
+      position: absolute;
+      top: 33.5vh;
+      left: 124vh;
+      font-family: Poppins;
+      font-weight: ExtraBold;
+      font-size: 1.3vh;
+      text-align: center;
+    }
+    .tabela3-valor {
+      color: rgba(255,255,255,1);
+      position: absolute;
+      top: 36vh;
+      left: 120vh;
+      font-family: Poppins;
+      font-weight: Bold;
+      font-size: 5vh;
+      text-align: left;
+    }
+    .tabela3-frase-direita-valor {
+      width: 10vh;
+      color: rgba(255,255,255,1);
+      position: absolute;
+      top: 37.5vh;
+      left: 134vh;
+      font-family: Poppins;
+      font-size: 1.7vh;
+      text-align: center;
+    }
+    .tabela3-frase1 {
+      width: 28vh;
+      color: rgba(255,255,255,1);
+      position: absolute;
+      top: 43vh;
+      left: 120vh;
+      font-family: Poppins;
+      font-size: 2vh;
+      text-align: left;
+    }
+    .tabela3-frase2 {
+      width: 32vh;
+      color: rgba(132,129,153,1);
+      position: absolute;
+      top: 52vh;
+      left: 120vh;
+      font-family: Poppins;
+      font-size: 2vh;
+      opacity: 1;
+      text-align: left;
+    }
+    
+    .tabela3-nome-agendar-agora {
+      width: 20vh;
+      color: rgba(255,255,255,1);
+      position: absolute;
+      top: 73vh;
+      left: 122.5vh;
+      font-family: Poppins;
+      font-size: 2vh;
+      text-align: center;
+      cursor: pointer;
+    }
+    .tabela3-microagulhamento,
+    .tabela3-pele-de-vidro,
+    .tabela3-microblanding {
+      color: rgba(131,128,153,1);
+      top: 6vh;
+      left: 125vh;
+      font-family: Poppins;
+      font-size: 2vh;
+      display: grid;
+      text-align: left;
+      position: relative;
+      padding: 0.5vh;
+    }
+    
+    .tabela3-sinal1,
+    .tabela3-sinal2,
+    .tabela3-sinal3 {
+      width: 2vh;
+      height: 2vh;
+      display: grid;
+      margin-bottom: 2vh;
+      position: relative;
+      background: url("../images/v351_52.png");
+      background-size: cover;
+      top: -5vh;
+      left: 122vh;
   }
 }
