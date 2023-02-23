@@ -226,7 +226,7 @@ body {
   width: 10vh;
   color: rgb(143, 143, 143);
   position: relative;
-  top: 1vh;
+  top: -69vh;
   left: 2vh;
   text-shadow: 0vh 0.4vh 0.6vh rgba(0, 0, 0, 0.25);
   font-family: Dancing Script;
@@ -241,8 +241,8 @@ body {
   width: 18vh;
   color: rgb(143, 143, 143);
   position: absolute;
-  top: 7.2vh;
-  left: 9vh;
+  top: -12.5vh;
+  left: 8vh;
   text-shadow: 0vh 0.3vh 0.4vh rgba(0, 0, 0, 0.25);
   font-family: Poppins;
   font-weight: SemiBold;
