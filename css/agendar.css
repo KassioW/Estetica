@@ -170,17 +170,7 @@ box-shadow: 3vh 3vh 1vh #40387980;
   border-radius: 2vh;
   box-shadow: 1vh 3vh 5vh #40387980;
 }
-.barra {
-  width: 10.8vh;
-  height: 0vh;
-  background: url("../images/v154_4675.png");
-  opacity: 1;
-  position: absolute;
-  top: 9vh;
-  left: 81.5vh;
-  border: 0.3vh solid rgba(0,0,0,1);
-  cursor: pointer;
-}
+
 
 @media screen and (max-width: 100vh) {
   .body{
