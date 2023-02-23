@@ -271,7 +271,7 @@ body {
 @media screen and (max-width: 100vh) {
 
   .tela-servicos-imagem {
-    width: 100%;
+    width: 120%;
     height: 150%;
   }
   .tela-servicos-mensagem2 {
