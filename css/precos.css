@@ -71,6 +71,11 @@ body {
  
 }
 
+.selecionado {
+  font-weight: bold;
+  border-bottom: 3px solid rgba(34,28,78,1);;
+}
+
 
 .figura-tela-preco {
   width: 32vh;
@@ -173,7 +178,7 @@ body {
 .tabela1-microblanding {
   width: 16vh;
   color: rgba(131,128,153,1);
-  top: 17.6vh;
+  top: 18.6vh;
   left: 63vh;
   font-family: Poppins;
   font-size: 2vh;
@@ -193,7 +198,7 @@ body {
   position: relative;
   background: url("../images/v351_52.png");
   background-size: cover;
-  top: 30vh;
+  top: 31vh;
   left: 60vh;
 }
 .tabela2-microagulhamento,

@@ -1,264 +1,264 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden; 
+  justify-content: center;
+  align-items: center;
+}
 
 .tela-agendar {
-  width: 100%;
-  height: 1366px;
-  background: rgba(250,235,215,1);
-  opacity: 1;
   position: relative;
-  top: 0px;
-  left: 0px;
-  overflow-x: scroll; 
+  height: 100vh;
 }
 .background-tela-agendar {
+  position: absolute;
   width: 100%;
-  height: 2000px;
-  background: url("../images/v159_157.png");
+  height: 100%;
+  background-image: url('../images/v159_155.png');
   background-repeat: no-repeat;
-  background-position: center center;
   background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 146px;
-  left: 0px;
 }
-.background-logo-tela-agendar {
-  width: 100%;
-  height: 145px;
-  background: rgba(214,173,96,1);
-  opacity: 1;
-  position: absolute;
-  top: 1px;
-  left: 0px;
-}
-.servicos {
-  width: 100px;
-  color: rgba(64,46,50,1);
-  position: absolute;
-  top: 53px;
-  left: 877px;
-  font-family: Poppins;
-  font-weight: Italic;
-  font-size: 24px;
-  opacity: 1;
-  text-align: center;
-  cursor: pointer;
-}
+
 .estetica {
-  width: 418px;
+  width: 40vh;
   color: rgba(64,46,50,1);
   position: absolute;
-  top: 22px;
-  left: 47px;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  top: 1vh;
+  left: 2vh;
+  text-shadow: 0vh 0.4vh 0.6vh rgba(0, 0, 0, 0.25);
   font-family: Dancing Script;
   font-weight: Bold;
-  font-size: 64px;
+  font-size: 6.5vh;
   opacity: 1;
   text-align: center;
   text-decoration: none;
 }
 .estetica1 {
-  width: 334px;
+  width: 18vh;
   color: rgba(64,46,50,1);
   position: absolute;
-  top: 92px;
-  left: 120px;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  top: 7.2vh;
+  left: 9vh;
+  text-shadow: 0vh 0.3vh 0.4vh rgba(0, 0, 0, 0.25);
   font-family: Poppins;
   font-weight: SemiBold;
-  font-size: 20px;
+  font-size: 2vh;
   opacity: 1;
   text-align: justified;
   text-decoration: none;
 }
-.inicio {
-  width: 63px;
+
+.inicio,
+.precos,
+.agendar,
+.servicos {
+  display: inline;
+  position: relative;
+  top: 4vh;
+  left: 105vh;
+  font-size: 1.5rem;
   color: rgba(64,46,50,1);
-  position: absolute;
-  top: 53px;
-  left: 581px;
   font-family: Poppins;
-  font-weight: Italic;
-  font-size: 24px;
-  opacity: 1;
+  font-weight: bold;
   text-align: center;
+  margin-right: 2rem;
   cursor: pointer;
+ 
 }
-.precos {
-  width: 81px;
-  color: rgba(64,46,50,1);
-  position: absolute;
-  top: 53px;
-  left: 665px;
-  font-family: Poppins;
-  font-weight: Italic;
-  font-size: 24px;
-  opacity: 1;
-  text-align: center;
-  cursor: pointer;
+.agendar{
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-color: rgba(34,28,78,1);;
 }
-.agendar {
-  width: 105px;
-  color: rgba(64,46,50,1);
-  position: absolute;
-  top: 53px;
-  left: 759px;
-  font-family: Poppins;
-  font-weight: Italic;
-  font-size: 24px;
-  opacity: 1;
-  text-align: center;
-  cursor: pointer;
+.selecionado {
+  font-weight: bold;
+  border-bottom: 3px solid rgba(34,28,78,1);;
 }
+
 .figura-tela-agendar {
-  width: 392px;
-  height: 581px;
-  background: url("../images/v152_4674.png");
+  width: 32vh;
+  height: 56vh;
+  background: url("../images/v154_4676.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 783px;
-  left: 10px;
-  overflow: hidden;
+  top: 42vh;
+  left: 1vh;
 }
 .tela-agendar-meio {
 position: absolute;
-left: 355px;
-top: 400px;
-width: 1300px;
-height: 467px;
+left: 50vh;
+top: 33vh;
+width: 95vh;
+height: 47vh;
 background: rgba(242,230,232,1);
-opacity: 1;
 position: relative;
-border: 0px solid rgba(150,150,150,1);
-border-top-left-radius: 26px;
-border-top-right-radius: 26px;
-border-bottom-left-radius: 26px;
-border-bottom-right-radius: 26px;
-overflow: hidden;
-box-shadow: 30px 30px 10px #40387980;
+border: 0vh solid rgba(150,150,150,1);
+border-radius: 9vh;
+box-shadow: 3vh 3vh 1vh #40387980;
 }
 .tela-agendar-meio-frase {
   position: absolute;
-  width: 559px;
-  height: 76px;
-  left: 730px;
-  top: 459px;
+  width: 50vh;
+  left: 75vh;
+  top: 39vh;
   font-family: 'Poppins';
   font-style: normal;
-  font-weight: 600;
-  font-size: 25px;
-  line-height: 38px;
+  font-weight: 6vh;
+  font-size: 2.5vh;
+  line-height: 4vh;
   text-align: center;
-  text-shadow: 10px 10px 20px #40387980;
+  text-shadow: 1vh 1vh 2vh #40387980;
   color: #FFFFFF;
 }
 
 .zap {
-  width: 161px;
-  height: 160px;
+  width: 17vh;
+  height: 17vh;
   background: url("../images/v340_129.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 631px;
-  left: 1250px;
+  top: 54vh;
+  left: 120vh;
   overflow: hidden;
-  box-shadow: 10px 10px 10px #40387980;
-  border-radius: 100%;
-}
-.face1 {
-  width: 32px;
-  height: 32px;
-  background: url("../images/v351_38.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 25px;
-  left: 1378px;
-  overflow: hidden;
-}
-.zap1 {
-  width: 32px;
-  height: 32px;
-  background: url("../images/v351_42.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 25px;
-  left: 1260px;
-  overflow: hidden;
-}
-.insta1 {
-  width: 32px;
-  height: 32px;
-  background: url("../images/v351_43.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 25px;
-  left: 1320px;
-  overflow: hidden;
+  box-shadow: 1vh 1vh 1vh #40387980;
+  border-radius: 10vh;
 }
 .insta{
-  width: 160px;
-  height: 160px;
+  width: 17vh;
+  height: 17vh;
   background: url("../images/v341_19.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 631px;
-  left: 988px;
+  top: 54vh;
+  left: 90vh;
   overflow: hidden;
-  box-shadow: 10px 10px 10px #40387980;
-  border-radius: 100%;
+  box-shadow: 1vh 1vh 1vh #40387980;
+  border-radius: 10vh;
 }
 .face{
-  width: 160px;
-  height: 160px;
+  width: 17vh;
+  height: 17vh;
   background: url("../images/v351_38.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 631px;
-  left: 700px;
-  overflow: hidden;
-  box-shadow: 10px 10px 10px #40387980;
-  border-radius: 100%;
+  top: 54vh;
+  left: 60vh;
+  box-shadow: 1vh 1vh 1vb #40387980;
+  border-radius: 100vh;
 }
 
 .frase {
   position: absolute;
-  height: 76px;
-  width: 860px;
-  left: 589px;
-  top: 459px;
-  border-radius: 24px;    
+  height: 8vh;
+  width: 110vh;
+  left: 43vh;
+  top: 39vh;   
   background: #BB6BD9;
-  border-radius: 24px;
-  box-shadow: 10px 10px 20px #40387980;
+  border-radius: 2vh;
+  box-shadow: 1vh 3vh 5vh #40387980;
 }
 .barra {
-  width: 90px;
-  height: 0px;
-  background: url("../images/v133_68.png");
+  width: 10.8vh;
+  height: 0vh;
+  background: url("../images/v154_4675.png");
   opacity: 1;
   position: absolute;
-  top: 89px;
-  left: 766px;
-  border: 2px solid rgba(0,0,0,1);
+  top: 9vh;
+  left: 81.5vh;
+  border: 0.3vh solid rgba(0,0,0,1);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 100vh) {
+  .body{
+    display: flex;
+  }
+
+  .background-tela-agendar {
+    position: absolute;
+  }
+  .estetica {
+    width: 40%;
+    font-size: 300%;
+    top: 91%;
+    left: 46%;
+    }
+  .estetica1 {
+    width: 25%;
+    font-size: 150%;
+    top: 95%;
+    left: 55%;
+  position: absolute;
+  }
+  .inicio,
+  .precos,
+  .agendar,
+  .servicos {
+    top: 4%;
+    left: 25%;
+    font-size: 200%;
+    margin-right: 2rem;
+  }
+  .figura-tela-agendar {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+  }
+  .tela-agendar-meio {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    width: 90%;
+    height: 35%;
+  }
+  .frase {
+    height: auto;
+    top: 23%;
+    width: 96%;
+    height: 8%;
+    left: 2%;
+    font-size: 120%;
+  }
+  .tela-agendar-meio-frase {
+    top: 23%;
+    left: 5%;
+    font-size: 200%;
+    text-align: center;
+  }
+  .zap{
+    width: 20%;
+    height: 12%;
+    top: 37%;
+    left: 10%;
+    border-radius: 100%;
+  }
+  .insta{
+    width: 20%;
+    height: 12%;
+    top: 37%;
+    left: 40%;
+    border-radius: 100%;
+  }
+  .face {
+    width: 20%;
+    height: 12%;
+    left: 70%;
+    top: 37%;
+    border-radius: 100%;
+  }
+
+
 }
