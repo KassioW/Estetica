@@ -196,12 +196,13 @@ box-shadow: 3vh 3vh 1vh #40387980;
     top: 91%;
     left: 46%;
     }
+
   .estetica1 {
     width: 25%;
     font-size: 150%;
     top: 95%;
     left: 55%;
-  position: absolute;
+    position: absolute;
   }
   .inicio,
   .precos,
@@ -235,6 +236,7 @@ box-shadow: 3vh 3vh 1vh #40387980;
   .tela-agendar-meio-frase {
     top: 23%;
     left: 5%;
+    width: 90%;
     font-size: 200%;
     text-align: center;
   }
